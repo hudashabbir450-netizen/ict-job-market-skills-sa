@@ -1,0 +1,2065 @@
+JobID,SkillName,SkillCategory
+J0001,Customer Service,Professional / Soft Skills
+J0003,Teamwork,Professional / Soft Skills
+J0005,Problem Solving,Professional / Soft Skills
+J0006,Stakeholder Engagement,Professional / Soft Skills
+J0006,Teamwork,Professional / Soft Skills
+J0008,Customer Service,Professional / Soft Skills
+J0008,Problem Solving,Professional / Soft Skills
+J0010,Customer Service,Professional / Soft Skills
+J0014,Stakeholder Engagement,Professional / Soft Skills
+J0021,Teamwork,Professional / Soft Skills
+J0022,Communication,Professional / Soft Skills
+J0025,Teamwork,Professional / Soft Skills
+J0025,Customer Service,Professional / Soft Skills
+J0025,Communication,Professional / Soft Skills
+J0026,Problem Solving,Professional / Soft Skills
+J0028,Communication,Professional / Soft Skills
+J0033,Problem Solving,Professional / Soft Skills
+J0035,Stakeholder Engagement,Professional / Soft Skills
+J0037,Problem Solving,Professional / Soft Skills
+J0037,Communication,Professional / Soft Skills
+J0040,Communication,Professional / Soft Skills
+J0041,Customer Service,Professional / Soft Skills
+J0044,Teamwork,Professional / Soft Skills
+J0044,Communication,Professional / Soft Skills
+J0045,Customer Service,Professional / Soft Skills
+J0045,Problem Solving,Professional / Soft Skills
+J0045,Communication,Professional / Soft Skills
+J0049,Teamwork,Professional / Soft Skills
+J0052,Customer Service,Professional / Soft Skills
+J0057,Stakeholder Engagement,Professional / Soft Skills
+J0058,Stakeholder Engagement,Professional / Soft Skills
+J0060,Teamwork,Professional / Soft Skills
+J0060,Customer Service,Professional / Soft Skills
+J0061,Teamwork,Professional / Soft Skills
+J0061,Problem Solving,Professional / Soft Skills
+J0062,Stakeholder Engagement,Professional / Soft Skills
+J0063,Communication,Professional / Soft Skills
+J0065,Problem Solving,Professional / Soft Skills
+J0065,Communication,Professional / Soft Skills
+J0067,Customer Service,Professional / Soft Skills
+J0067,Stakeholder Engagement,Professional / Soft Skills
+J0073,Teamwork,Professional / Soft Skills
+J0075,Communication,Professional / Soft Skills
+J0076,Stakeholder Engagement,Professional / Soft Skills
+J0080,Customer Service,Professional / Soft Skills
+J0081,Teamwork,Professional / Soft Skills
+J0082,Teamwork,Professional / Soft Skills
+J0088,Customer Service,Professional / Soft Skills
+J0093,Teamwork,Professional / Soft Skills
+J0093,Problem Solving,Professional / Soft Skills
+J0093,Communication,Professional / Soft Skills
+J0095,Stakeholder Engagement,Professional / Soft Skills
+J0095,Customer Service,Professional / Soft Skills
+J0096,Communication,Professional / Soft Skills
+J0097,Teamwork,Professional / Soft Skills
+J0098,Customer Service,Professional / Soft Skills
+J0099,Stakeholder Engagement,Professional / Soft Skills
+J0100,Stakeholder Engagement,Professional / Soft Skills
+J0100,Customer Service,Professional / Soft Skills
+J0100,Communication,Professional / Soft Skills
+J0103,Teamwork,Professional / Soft Skills
+J0104,Customer Service,Professional / Soft Skills
+J0106,Customer Service,Professional / Soft Skills
+J0106,Problem Solving,Professional / Soft Skills
+J0106,Communication,Professional / Soft Skills
+J0110,Customer Service,Professional / Soft Skills
+J0110,Stakeholder Engagement,Professional / Soft Skills
+J0112,Communication,Professional / Soft Skills
+J0113,Customer Service,Professional / Soft Skills
+J0114,Stakeholder Engagement,Professional / Soft Skills
+J0116,Communication,Professional / Soft Skills
+J0116,Teamwork,Professional / Soft Skills
+J0119,Customer Service,Professional / Soft Skills
+J0119,Communication,Professional / Soft Skills
+J0120,Teamwork,Professional / Soft Skills
+J0123,Stakeholder Engagement,Professional / Soft Skills
+J0124,Problem Solving,Professional / Soft Skills
+J0132,Stakeholder Engagement,Professional / Soft Skills
+J0132,Teamwork,Professional / Soft Skills
+J0132,Customer Service,Professional / Soft Skills
+J0132,Problem Solving,Professional / Soft Skills
+J0132,Communication,Professional / Soft Skills
+J0133,Customer Service,Professional / Soft Skills
+J0136,Stakeholder Engagement,Professional / Soft Skills
+J0136,Customer Service,Professional / Soft Skills
+J0137,Teamwork,Professional / Soft Skills
+J0137,Communication,Professional / Soft Skills
+J0139,Stakeholder Engagement,Professional / Soft Skills
+J0139,Teamwork,Professional / Soft Skills
+J0139,Problem Solving,Professional / Soft Skills
+J0141,Teamwork,Professional / Soft Skills
+J0151,Problem Solving,Professional / Soft Skills
+J0151,Communication,Professional / Soft Skills
+J0154,Stakeholder Engagement,Professional / Soft Skills
+J0156,Problem Solving,Professional / Soft Skills
+J0156,Communication,Professional / Soft Skills
+J0157,Customer Service,Professional / Soft Skills
+J0159,Problem Solving,Professional / Soft Skills
+J0160,Communication,Professional / Soft Skills
+J0161,Communication,Professional / Soft Skills
+J0161,Problem Solving,Professional / Soft Skills
+J0165,Stakeholder Engagement,Professional / Soft Skills
+J0167,Teamwork,Professional / Soft Skills
+J0168,Teamwork,Professional / Soft Skills
+J0169,Teamwork,Professional / Soft Skills
+J0169,Customer Service,Professional / Soft Skills
+J0169,Communication,Professional / Soft Skills
+J0171,Problem Solving,Professional / Soft Skills
+J0175,Teamwork,Professional / Soft Skills
+J0175,Problem Solving,Professional / Soft Skills
+J0176,Problem Solving,Professional / Soft Skills
+J0182,Teamwork,Professional / Soft Skills
+J0182,Communication,Professional / Soft Skills
+J0183,Teamwork,Professional / Soft Skills
+J0183,Customer Service,Professional / Soft Skills
+J0187,Stakeholder Engagement,Professional / Soft Skills
+J0187,Customer Service,Professional / Soft Skills
+J0191,Problem Solving,Professional / Soft Skills
+J0196,Customer Service,Professional / Soft Skills
+J0196,Communication,Professional / Soft Skills
+J0199,Teamwork,Professional / Soft Skills
+J0199,Problem Solving,Professional / Soft Skills
+J0204,Customer Service,Professional / Soft Skills
+J0205,Problem Solving,Professional / Soft Skills
+J0206,Teamwork,Professional / Soft Skills
+J0208,Communication,Professional / Soft Skills
+J0214,Customer Service,Professional / Soft Skills
+J0214,Problem Solving,Professional / Soft Skills
+J0214,Communication,Professional / Soft Skills
+J0217,Teamwork,Professional / Soft Skills
+J0217,Communication,Professional / Soft Skills
+J0218,Teamwork,Professional / Soft Skills
+J0218,Communication,Professional / Soft Skills
+J0222,Problem Solving,Professional / Soft Skills
+J0223,Problem Solving,Professional / Soft Skills
+J0226,Stakeholder Engagement,Professional / Soft Skills
+J0226,Teamwork,Professional / Soft Skills
+J0226,Customer Service,Professional / Soft Skills
+J0227,Stakeholder Engagement,Professional / Soft Skills
+J0227,Teamwork,Professional / Soft Skills
+J0227,Problem Solving,Professional / Soft Skills
+J0227,Communication,Professional / Soft Skills
+J0230,Teamwork,Professional / Soft Skills
+J0233,Problem Solving,Professional / Soft Skills
+J0234,Customer Service,Professional / Soft Skills
+J0234,Problem Solving,Professional / Soft Skills
+J0235,Communication,Professional / Soft Skills
+J0235,Problem Solving,Professional / Soft Skills
+J0238,Stakeholder Engagement,Professional / Soft Skills
+J0238,Communication,Professional / Soft Skills
+J0239,Teamwork,Professional / Soft Skills
+J0240,Teamwork,Professional / Soft Skills
+J0241,Customer Service,Professional / Soft Skills
+J0244,Customer Service,Professional / Soft Skills
+J0244,Stakeholder Engagement,Professional / Soft Skills
+J0247,Communication,Professional / Soft Skills
+J0247,Teamwork,Professional / Soft Skills
+J0247,Problem Solving,Professional / Soft Skills
+J0249,Communication,Professional / Soft Skills
+J0254,Communication,Professional / Soft Skills
+J0255,Stakeholder Engagement,Professional / Soft Skills
+J0256,Problem Solving,Professional / Soft Skills
+J0259,Customer Service,Professional / Soft Skills
+J0262,Problem Solving,Professional / Soft Skills
+J0263,Stakeholder Engagement,Professional / Soft Skills
+J0263,Customer Service,Professional / Soft Skills
+J0263,Problem Solving,Professional / Soft Skills
+J0266,Customer Service,Professional / Soft Skills
+J0268,Problem Solving,Professional / Soft Skills
+J0268,Communication,Professional / Soft Skills
+J0270,Stakeholder Engagement,Professional / Soft Skills
+J0270,Customer Service,Professional / Soft Skills
+J0271,Stakeholder Engagement,Professional / Soft Skills
+J0276,Problem Solving,Professional / Soft Skills
+J0276,Communication,Professional / Soft Skills
+J0279,Customer Service,Professional / Soft Skills
+J0285,Communication,Professional / Soft Skills
+J0285,Problem Solving,Professional / Soft Skills
+J0286,Communication,Professional / Soft Skills
+J0287,Teamwork,Professional / Soft Skills
+J0292,Customer Service,Professional / Soft Skills
+J0294,Teamwork,Professional / Soft Skills
+J0295,Communication,Professional / Soft Skills
+J0295,Stakeholder Engagement,Professional / Soft Skills
+J0296,Stakeholder Engagement,Professional / Soft Skills
+J0297,Problem Solving,Professional / Soft Skills
+J0298,Stakeholder Engagement,Professional / Soft Skills
+J0299,Problem Solving,Professional / Soft Skills
+J0301,Customer Service,Professional / Soft Skills
+J0302,Stakeholder Engagement,Professional / Soft Skills
+J0302,Customer Service,Professional / Soft Skills
+J0304,Communication,Professional / Soft Skills
+J0306,Problem Solving,Professional / Soft Skills
+J0312,Stakeholder Engagement,Professional / Soft Skills
+J0314,Customer Service,Professional / Soft Skills
+J0315,Communication,Professional / Soft Skills
+J0315,Customer Service,Professional / Soft Skills
+J0316,Teamwork,Professional / Soft Skills
+J0316,Customer Service,Professional / Soft Skills
+J0317,Customer Service,Professional / Soft Skills
+J0318,Stakeholder Engagement,Professional / Soft Skills
+J0318,Communication,Professional / Soft Skills
+J0319,Customer Service,Professional / Soft Skills
+J0319,Teamwork,Professional / Soft Skills
+J0326,Teamwork,Professional / Soft Skills
+J0326,Communication,Professional / Soft Skills
+J0328,Problem Solving,Professional / Soft Skills
+J0328,Communication,Professional / Soft Skills
+J0336,Teamwork,Professional / Soft Skills
+J0336,Customer Service,Professional / Soft Skills
+J0336,Problem Solving,Professional / Soft Skills
+J0337,Stakeholder Engagement,Professional / Soft Skills
+J0337,Teamwork,Professional / Soft Skills
+J0337,Customer Service,Professional / Soft Skills
+J0337,Communication,Professional / Soft Skills
+J0338,Customer Service,Professional / Soft Skills
+J0338,Communication,Professional / Soft Skills
+J0340,Stakeholder Engagement,Professional / Soft Skills
+J0340,Customer Service,Professional / Soft Skills
+J0340,Problem Solving,Professional / Soft Skills
+J0340,Communication,Professional / Soft Skills
+J0342,Stakeholder Engagement,Professional / Soft Skills
+J0342,Problem Solving,Professional / Soft Skills
+J0343,Teamwork,Professional / Soft Skills
+J0345,Customer Service,Professional / Soft Skills
+J0346,Teamwork,Professional / Soft Skills
+J0346,Problem Solving,Professional / Soft Skills
+J0346,Communication,Professional / Soft Skills
+J0347,Teamwork,Professional / Soft Skills
+J0348,Stakeholder Engagement,Professional / Soft Skills
+J0348,Problem Solving,Professional / Soft Skills
+J0348,Communication,Professional / Soft Skills
+J0350,Stakeholder Engagement,Professional / Soft Skills
+J0350,Problem Solving,Professional / Soft Skills
+J0350,Teamwork,Professional / Soft Skills
+J0358,Communication,Professional / Soft Skills
+J0360,Problem Solving,Professional / Soft Skills
+J0360,Stakeholder Engagement,Professional / Soft Skills
+J0362,Teamwork,Professional / Soft Skills
+J0363,Stakeholder Engagement,Professional / Soft Skills
+J0366,Teamwork,Professional / Soft Skills
+J0366,Customer Service,Professional / Soft Skills
+J0369,Stakeholder Engagement,Professional / Soft Skills
+J0369,Problem Solving,Professional / Soft Skills
+J0369,Communication,Professional / Soft Skills
+J0371,Communication,Professional / Soft Skills
+J0373,Customer Service,Professional / Soft Skills
+J0373,Problem Solving,Professional / Soft Skills
+J0376,Stakeholder Engagement,Professional / Soft Skills
+J0376,Problem Solving,Professional / Soft Skills
+J0377,Teamwork,Professional / Soft Skills
+J0377,Problem Solving,Professional / Soft Skills
+J0382,Stakeholder Engagement,Professional / Soft Skills
+J0383,Teamwork,Professional / Soft Skills
+J0383,Problem Solving,Professional / Soft Skills
+J0385,Problem Solving,Professional / Soft Skills
+J0391,Problem Solving,Professional / Soft Skills
+J0391,Communication,Professional / Soft Skills
+J0394,Teamwork,Professional / Soft Skills
+J0395,Teamwork,Professional / Soft Skills
+J0395,Customer Service,Professional / Soft Skills
+J0396,Stakeholder Engagement,Professional / Soft Skills
+J0396,Problem Solving,Professional / Soft Skills
+J0005,Python,Programming & Scripting
+J0005,Bash/Shell Scripting,Programming & Scripting
+J0006,PHP,Programming & Scripting
+J0006,Bash/Shell Scripting,Programming & Scripting
+J0009,Python,Programming & Scripting
+J0010,Java,Programming & Scripting
+J0010,SQL,Programming & Scripting
+J0014,PHP,Programming & Scripting
+J0014,SQL,Programming & Scripting
+J0015,Python,Programming & Scripting
+J0016,Java,Programming & Scripting
+J0017,JavaScript,Programming & Scripting
+J0018,PHP,Programming & Scripting
+J0026,Java,Programming & Scripting
+J0026,Bash/Shell Scripting,Programming & Scripting
+J0026,C#,Programming & Scripting
+J0029,PHP,Programming & Scripting
+J0036,SQL,Programming & Scripting
+J0039,C#,Programming & Scripting
+J0047,SQL,Programming & Scripting
+J0047,JavaScript,Programming & Scripting
+J0047,C#,Programming & Scripting
+J0048,TypeScript,Programming & Scripting
+J0053,PHP,Programming & Scripting
+J0053,Python,Programming & Scripting
+J0053,JavaScript,Programming & Scripting
+J0053,SQL,Programming & Scripting
+J0055,Java,Programming & Scripting
+J0056,Python,Programming & Scripting
+J0057,Python,Programming & Scripting
+J0057,Bash/Shell Scripting,Programming & Scripting
+J0068,Python,Programming & Scripting
+J0068,SQL,Programming & Scripting
+J0070,PHP,Programming & Scripting
+J0070,SQL,Programming & Scripting
+J0077,Java,Programming & Scripting
+J0077,Bash/Shell Scripting,Programming & Scripting
+J0079,Python,Programming & Scripting
+J0079,SQL,Programming & Scripting
+J0085,SQL,Programming & Scripting
+J0085,C#,Programming & Scripting
+J0092,PHP,Programming & Scripting
+J0092,Python,Programming & Scripting
+J0092,TypeScript,Programming & Scripting
+J0095,Python,Programming & Scripting
+J0095,TypeScript,Programming & Scripting
+J0095,JavaScript,Programming & Scripting
+J0098,C#,Programming & Scripting
+J0102,PHP,Programming & Scripting
+J0102,Python,Programming & Scripting
+J0102,JavaScript,Programming & Scripting
+J0104,Java,Programming & Scripting
+J0104,Python,Programming & Scripting
+J0104,JavaScript,Programming & Scripting
+J0114,PHP,Programming & Scripting
+J0114,Java,Programming & Scripting
+J0114,Bash/Shell Scripting,Programming & Scripting
+J0114,JavaScript,Programming & Scripting
+J0117,Java,Programming & Scripting
+J0123,SQL,Programming & Scripting
+J0123,JavaScript,Programming & Scripting
+J0123,C#,Programming & Scripting
+J0124,JavaScript,Programming & Scripting
+J0127,Bash/Shell Scripting,Programming & Scripting
+J0128,Python,Programming & Scripting
+J0131,Python,Programming & Scripting
+J0133,C#,Programming & Scripting
+J0136,PHP,Programming & Scripting
+J0136,Python,Programming & Scripting
+J0136,Bash/Shell Scripting,Programming & Scripting
+J0138,Bash/Shell Scripting,Programming & Scripting
+J0138,TypeScript,Programming & Scripting
+J0145,Java,Programming & Scripting
+J0149,SQL,Programming & Scripting
+J0154,Java,Programming & Scripting
+J0154,SQL,Programming & Scripting
+J0159,C#,Programming & Scripting
+J0161,SQL,Programming & Scripting
+J0162,Java,Programming & Scripting
+J0165,Bash/Shell Scripting,Programming & Scripting
+J0165,JavaScript,Programming & Scripting
+J0166,TypeScript,Programming & Scripting
+J0166,Bash/Shell Scripting,Programming & Scripting
+J0166,C#,Programming & Scripting
+J0167,C#,Programming & Scripting
+J0170,PHP,Programming & Scripting
+J0172,Bash/Shell Scripting,Programming & Scripting
+J0175,Python,Programming & Scripting
+J0175,JavaScript,Programming & Scripting
+J0177,SQL,Programming & Scripting
+J0177,Java,Programming & Scripting
+J0178,PHP,Programming & Scripting
+J0178,Java,Programming & Scripting
+J0178,JavaScript,Programming & Scripting
+J0178,C#,Programming & Scripting
+J0182,Bash/Shell Scripting,Programming & Scripting
+J0188,TypeScript,Programming & Scripting
+J0188,Bash/Shell Scripting,Programming & Scripting
+J0190,TypeScript,Programming & Scripting
+J0190,SQL,Programming & Scripting
+J0194,PHP,Programming & Scripting
+J0194,Java,Programming & Scripting
+J0195,TypeScript,Programming & Scripting
+J0198,Python,Programming & Scripting
+J0198,SQL,Programming & Scripting
+J0202,TypeScript,Programming & Scripting
+J0202,Java,Programming & Scripting
+J0203,Python,Programming & Scripting
+J0203,SQL,Programming & Scripting
+J0203,JavaScript,Programming & Scripting
+J0209,Python,Programming & Scripting
+J0209,Bash/Shell Scripting,Programming & Scripting
+J0210,TypeScript,Programming & Scripting
+J0211,Python,Programming & Scripting
+J0212,PHP,Programming & Scripting
+J0212,Java,Programming & Scripting
+J0212,TypeScript,Programming & Scripting
+J0212,Python,Programming & Scripting
+J0218,JavaScript,Programming & Scripting
+J0224,SQL,Programming & Scripting
+J0225,JavaScript,Programming & Scripting
+J0225,PHP,Programming & Scripting
+J0228,TypeScript,Programming & Scripting
+J0228,JavaScript,Programming & Scripting
+J0231,JavaScript,Programming & Scripting
+J0239,PHP,Programming & Scripting
+J0239,TypeScript,Programming & Scripting
+J0240,TypeScript,Programming & Scripting
+J0241,Python,Programming & Scripting
+J0241,JavaScript,Programming & Scripting
+J0243,JavaScript,Programming & Scripting
+J0243,C#,Programming & Scripting
+J0245,JavaScript,Programming & Scripting
+J0245,Bash/Shell Scripting,Programming & Scripting
+J0245,C#,Programming & Scripting
+J0247,C#,Programming & Scripting
+J0248,PHP,Programming & Scripting
+J0248,TypeScript,Programming & Scripting
+J0248,JavaScript,Programming & Scripting
+J0249,TypeScript,Programming & Scripting
+J0249,C#,Programming & Scripting
+J0251,PHP,Programming & Scripting
+J0252,SQL,Programming & Scripting
+J0253,SQL,Programming & Scripting
+J0254,SQL,Programming & Scripting
+J0261,Bash/Shell Scripting,Programming & Scripting
+J0261,SQL,Programming & Scripting
+J0264,Bash/Shell Scripting,Programming & Scripting
+J0269,SQL,Programming & Scripting
+J0270,Bash/Shell Scripting,Programming & Scripting
+J0270,SQL,Programming & Scripting
+J0270,JavaScript,Programming & Scripting
+J0272,JavaScript,Programming & Scripting
+J0272,PHP,Programming & Scripting
+J0274,SQL,Programming & Scripting
+J0274,C#,Programming & Scripting
+J0276,Python,Programming & Scripting
+J0276,C#,Programming & Scripting
+J0286,SQL,Programming & Scripting
+J0286,C#,Programming & Scripting
+J0289,PHP,Programming & Scripting
+J0289,Bash/Shell Scripting,Programming & Scripting
+J0289,Python,Programming & Scripting
+J0290,Python,Programming & Scripting
+J0290,SQL,Programming & Scripting
+J0294,SQL,Programming & Scripting
+J0294,Java,Programming & Scripting
+J0296,C#,Programming & Scripting
+J0301,Python,Programming & Scripting
+J0301,TypeScript,Programming & Scripting
+J0304,SQL,Programming & Scripting
+J0304,Python,Programming & Scripting
+J0305,Java,Programming & Scripting
+J0307,SQL,Programming & Scripting
+J0310,Python,Programming & Scripting
+J0310,PHP,Programming & Scripting
+J0315,TypeScript,Programming & Scripting
+J0315,Java,Programming & Scripting
+J0316,Java,Programming & Scripting
+J0316,Python,Programming & Scripting
+J0317,SQL,Programming & Scripting
+J0317,JavaScript,Programming & Scripting
+J0317,C#,Programming & Scripting
+J0319,SQL,Programming & Scripting
+J0321,JavaScript,Programming & Scripting
+J0322,C#,Programming & Scripting
+J0327,TypeScript,Programming & Scripting
+J0327,JavaScript,Programming & Scripting
+J0329,JavaScript,Programming & Scripting
+J0330,Python,Programming & Scripting
+J0330,JavaScript,Programming & Scripting
+J0330,Java,Programming & Scripting
+J0333,C#,Programming & Scripting
+J0334,PHP,Programming & Scripting
+J0334,SQL,Programming & Scripting
+J0338,SQL,Programming & Scripting
+J0339,Java,Programming & Scripting
+J0341,JavaScript,Programming & Scripting
+J0348,TypeScript,Programming & Scripting
+J0348,Bash/Shell Scripting,Programming & Scripting
+J0349,Java,Programming & Scripting
+J0351,SQL,Programming & Scripting
+J0352,Bash/Shell Scripting,Programming & Scripting
+J0352,JavaScript,Programming & Scripting
+J0352,C#,Programming & Scripting
+J0353,Python,Programming & Scripting
+J0355,Java,Programming & Scripting
+J0355,TypeScript,Programming & Scripting
+J0355,JavaScript,Programming & Scripting
+J0359,SQL,Programming & Scripting
+J0359,Java,Programming & Scripting
+J0365,Java,Programming & Scripting
+J0365,SQL,Programming & Scripting
+J0380,JavaScript,Programming & Scripting
+J0380,SQL,Programming & Scripting
+J0381,TypeScript,Programming & Scripting
+J0381,Python,Programming & Scripting
+J0384,SQL,Programming & Scripting
+J0385,TypeScript,Programming & Scripting
+J0389,Bash/Shell Scripting,Programming & Scripting
+J0389,C#,Programming & Scripting
+J0392,TypeScript,Programming & Scripting
+J0393,PHP,Programming & Scripting
+J0393,TypeScript,Programming & Scripting
+J0399,Bash/Shell Scripting,Programming & Scripting
+J0399,JavaScript,Programming & Scripting
+J0400,Bash/Shell Scripting,Programming & Scripting
+J0002,People Management,Leadership & Management
+J0002,Change Management,Leadership & Management
+J0002,Budget & Vendor Management,Leadership & Management
+J0003,Risk Management,Leadership & Management
+J0003,Team Leadership & Mentoring,Leadership & Management
+J0003,Budget & Vendor Management,Leadership & Management
+J0003,Board & Executive Reporting,Leadership & Management
+J0012,People Management,Leadership & Management
+J0012,Team Leadership & Mentoring,Leadership & Management
+J0012,Budget & Vendor Management,Leadership & Management
+J0012,Strategic Planning,Leadership & Management
+J0013,People Management,Leadership & Management
+J0013,Team Leadership & Mentoring,Leadership & Management
+J0013,Board & Executive Reporting,Leadership & Management
+J0013,Strategic Planning,Leadership & Management
+J0014,People Management,Leadership & Management
+J0014,Risk Management,Leadership & Management
+J0014,Board & Executive Reporting,Leadership & Management
+J0015,Risk Management,Leadership & Management
+J0022,Team Leadership & Mentoring,Leadership & Management
+J0027,Risk Management,Leadership & Management
+J0028,People Management,Leadership & Management
+J0028,Team Leadership & Mentoring,Leadership & Management
+J0030,Budget & Vendor Management,Leadership & Management
+J0030,Strategic Planning,Leadership & Management
+J0036,Change Management,Leadership & Management
+J0036,Budget & Vendor Management,Leadership & Management
+J0036,Board & Executive Reporting,Leadership & Management
+J0036,Strategic Planning,Leadership & Management
+J0044,Change Management,Leadership & Management
+J0044,Team Leadership & Mentoring,Leadership & Management
+J0044,Strategic Planning,Leadership & Management
+J0059,Change Management,Leadership & Management
+J0059,Budget & Vendor Management,Leadership & Management
+J0061,Team Leadership & Mentoring,Leadership & Management
+J0061,Budget & Vendor Management,Leadership & Management
+J0061,Strategic Planning,Leadership & Management
+J0062,Budget & Vendor Management,Leadership & Management
+J0063,Board & Executive Reporting,Leadership & Management
+J0075,People Management,Leadership & Management
+J0075,Strategic Planning,Leadership & Management
+J0076,Change Management,Leadership & Management
+J0076,Budget & Vendor Management,Leadership & Management
+J0076,Strategic Planning,Leadership & Management
+J0078,Change Management,Leadership & Management
+J0078,Strategic Planning,Leadership & Management
+J0081,Risk Management,Leadership & Management
+J0081,Team Leadership & Mentoring,Leadership & Management
+J0081,Budget & Vendor Management,Leadership & Management
+J0081,Strategic Planning,Leadership & Management
+J0087,People Management,Leadership & Management
+J0087,Budget & Vendor Management,Leadership & Management
+J0087,Strategic Planning,Leadership & Management
+J0089,Team Leadership & Mentoring,Leadership & Management
+J0090,Budget & Vendor Management,Leadership & Management
+J0090,Board & Executive Reporting,Leadership & Management
+J0090,Risk Management,Leadership & Management
+J0091,Risk Management,Leadership & Management
+J0098,Strategic Planning,Leadership & Management
+J0099,Risk Management,Leadership & Management
+J0099,Budget & Vendor Management,Leadership & Management
+J0099,Strategic Planning,Leadership & Management
+J0104,Team Leadership & Mentoring,Leadership & Management
+J0105,Budget & Vendor Management,Leadership & Management
+J0109,Strategic Planning,Leadership & Management
+J0109,Budget & Vendor Management,Leadership & Management
+J0112,Risk Management,Leadership & Management
+J0112,Budget & Vendor Management,Leadership & Management
+J0113,People Management,Leadership & Management
+J0119,People Management,Leadership & Management
+J0119,Board & Executive Reporting,Leadership & Management
+J0125,Risk Management,Leadership & Management
+J0125,Budget & Vendor Management,Leadership & Management
+J0125,Strategic Planning,Leadership & Management
+J0130,Risk Management,Leadership & Management
+J0130,Change Management,Leadership & Management
+J0130,Strategic Planning,Leadership & Management
+J0134,Change Management,Leadership & Management
+J0134,Board & Executive Reporting,Leadership & Management
+J0134,Strategic Planning,Leadership & Management
+J0139,Team Leadership & Mentoring,Leadership & Management
+J0139,Board & Executive Reporting,Leadership & Management
+J0142,Budget & Vendor Management,Leadership & Management
+J0142,Team Leadership & Mentoring,Leadership & Management
+J0142,Strategic Planning,Leadership & Management
+J0146,Risk Management,Leadership & Management
+J0150,Budget & Vendor Management,Leadership & Management
+J0151,People Management,Leadership & Management
+J0151,Team Leadership & Mentoring,Leadership & Management
+J0151,Strategic Planning,Leadership & Management
+J0152,People Management,Leadership & Management
+J0152,Risk Management,Leadership & Management
+J0152,Team Leadership & Mentoring,Leadership & Management
+J0152,Board & Executive Reporting,Leadership & Management
+J0155,Change Management,Leadership & Management
+J0155,Team Leadership & Mentoring,Leadership & Management
+J0155,Budget & Vendor Management,Leadership & Management
+J0156,People Management,Leadership & Management
+J0156,Risk Management,Leadership & Management
+J0156,Board & Executive Reporting,Leadership & Management
+J0163,Change Management,Leadership & Management
+J0163,Team Leadership & Mentoring,Leadership & Management
+J0168,Budget & Vendor Management,Leadership & Management
+J0168,Team Leadership & Mentoring,Leadership & Management
+J0168,Board & Executive Reporting,Leadership & Management
+J0171,Risk Management,Leadership & Management
+J0171,Team Leadership & Mentoring,Leadership & Management
+J0171,Budget & Vendor Management,Leadership & Management
+J0173,People Management,Leadership & Management
+J0174,Risk Management,Leadership & Management
+J0174,Team Leadership & Mentoring,Leadership & Management
+J0174,Budget & Vendor Management,Leadership & Management
+J0174,Strategic Planning,Leadership & Management
+J0178,Budget & Vendor Management,Leadership & Management
+J0179,Board & Executive Reporting,Leadership & Management
+J0179,Strategic Planning,Leadership & Management
+J0181,People Management,Leadership & Management
+J0181,Team Leadership & Mentoring,Leadership & Management
+J0181,Board & Executive Reporting,Leadership & Management
+J0183,Budget & Vendor Management,Leadership & Management
+J0183,Team Leadership & Mentoring,Leadership & Management
+J0183,Strategic Planning,Leadership & Management
+J0187,Change Management,Leadership & Management
+J0187,Team Leadership & Mentoring,Leadership & Management
+J0187,Board & Executive Reporting,Leadership & Management
+J0191,Change Management,Leadership & Management
+J0191,Board & Executive Reporting,Leadership & Management
+J0192,People Management,Leadership & Management
+J0192,Board & Executive Reporting,Leadership & Management
+J0197,People Management,Leadership & Management
+J0197,Team Leadership & Mentoring,Leadership & Management
+J0197,Budget & Vendor Management,Leadership & Management
+J0197,Board & Executive Reporting,Leadership & Management
+J0204,People Management,Leadership & Management
+J0204,Risk Management,Leadership & Management
+J0205,Board & Executive Reporting,Leadership & Management
+J0208,Change Management,Leadership & Management
+J0208,Team Leadership & Mentoring,Leadership & Management
+J0208,Budget & Vendor Management,Leadership & Management
+J0208,Strategic Planning,Leadership & Management
+J0216,People Management,Leadership & Management
+J0216,Board & Executive Reporting,Leadership & Management
+J0221,People Management,Leadership & Management
+J0221,Risk Management,Leadership & Management
+J0221,Team Leadership & Mentoring,Leadership & Management
+J0223,People Management,Leadership & Management
+J0223,Team Leadership & Mentoring,Leadership & Management
+J0224,Change Management,Leadership & Management
+J0224,Budget & Vendor Management,Leadership & Management
+J0224,Board & Executive Reporting,Leadership & Management
+J0226,People Management,Leadership & Management
+J0226,Change Management,Leadership & Management
+J0226,Budget & Vendor Management,Leadership & Management
+J0232,Budget & Vendor Management,Leadership & Management
+J0232,Strategic Planning,Leadership & Management
+J0233,People Management,Leadership & Management
+J0233,Change Management,Leadership & Management
+J0233,Strategic Planning,Leadership & Management
+J0248,People Management,Leadership & Management
+J0248,Strategic Planning,Leadership & Management
+J0252,Board & Executive Reporting,Leadership & Management
+J0252,Strategic Planning,Leadership & Management
+J0255,People Management,Leadership & Management
+J0260,Risk Management,Leadership & Management
+J0266,People Management,Leadership & Management
+J0266,Strategic Planning,Leadership & Management
+J0271,People Management,Leadership & Management
+J0271,Strategic Planning,Leadership & Management
+J0275,Team Leadership & Mentoring,Leadership & Management
+J0275,Budget & Vendor Management,Leadership & Management
+J0275,Board & Executive Reporting,Leadership & Management
+J0278,Risk Management,Leadership & Management
+J0278,Board & Executive Reporting,Leadership & Management
+J0278,Strategic Planning,Leadership & Management
+J0279,Risk Management,Leadership & Management
+J0279,Change Management,Leadership & Management
+J0279,Team Leadership & Mentoring,Leadership & Management
+J0279,Budget & Vendor Management,Leadership & Management
+J0280,Team Leadership & Mentoring,Leadership & Management
+J0288,People Management,Leadership & Management
+J0288,Risk Management,Leadership & Management
+J0288,Strategic Planning,Leadership & Management
+J0292,Budget & Vendor Management,Leadership & Management
+J0305,Change Management,Leadership & Management
+J0306,Risk Management,Leadership & Management
+J0309,Risk Management,Leadership & Management
+J0314,Risk Management,Leadership & Management
+J0327,People Management,Leadership & Management
+J0327,Team Leadership & Mentoring,Leadership & Management
+J0331,People Management,Leadership & Management
+J0331,Board & Executive Reporting,Leadership & Management
+J0347,Budget & Vendor Management,Leadership & Management
+J0347,Team Leadership & Mentoring,Leadership & Management
+J0347,Strategic Planning,Leadership & Management
+J0367,Risk Management,Leadership & Management
+J0367,Team Leadership & Mentoring,Leadership & Management
+J0367,Board & Executive Reporting,Leadership & Management
+J0367,Strategic Planning,Leadership & Management
+J0379,Risk Management,Leadership & Management
+J0386,People Management,Leadership & Management
+J0386,Risk Management,Leadership & Management
+J0386,Change Management,Leadership & Management
+J0386,Budget & Vendor Management,Leadership & Management
+J0387,Budget & Vendor Management,Leadership & Management
+J0387,Board & Executive Reporting,Leadership & Management
+J0390,Budget & Vendor Management,Leadership & Management
+J0390,Risk Management,Leadership & Management
+J0390,Team Leadership & Mentoring,Leadership & Management
+J0395,Change Management,Leadership & Management
+J0395,Board & Executive Reporting,Leadership & Management
+J0396,People Management,Leadership & Management
+J0396,Change Management,Leadership & Management
+J0004,ETL / Data Pipelines,Data & Analytics
+J0004,Data Warehousing,Data & Analytics
+J0006,Tableau,Data & Analytics
+J0013,Data Modelling,Data & Analytics
+J0013,Data Warehousing,Data & Analytics
+J0015,Data Warehousing,Data & Analytics
+J0016,Advanced Excel,Data & Analytics
+J0026,Data Modelling,Data & Analytics
+J0026,Machine Learning,Data & Analytics
+J0026,Tableau,Data & Analytics
+J0029,Machine Learning,Data & Analytics
+J0029,Data Warehousing,Data & Analytics
+J0030,ETL / Data Pipelines,Data & Analytics
+J0033,Data Modelling,Data & Analytics
+J0033,Data Warehousing,Data & Analytics
+J0033,ETL / Data Pipelines,Data & Analytics
+J0035,Power BI,Data & Analytics
+J0035,ETL / Data Pipelines,Data & Analytics
+J0039,Data Modelling,Data & Analytics
+J0039,Data Warehousing,Data & Analytics
+J0039,Tableau,Data & Analytics
+J0048,Data Warehousing,Data & Analytics
+J0050,Machine Learning,Data & Analytics
+J0050,ETL / Data Pipelines,Data & Analytics
+J0050,Advanced Excel,Data & Analytics
+J0053,Data Warehousing,Data & Analytics
+J0054,Data Modelling,Data & Analytics
+J0054,Machine Learning,Data & Analytics
+J0054,ETL / Data Pipelines,Data & Analytics
+J0054,Advanced Excel,Data & Analytics
+J0055,Data Modelling,Data & Analytics
+J0055,Data Warehousing,Data & Analytics
+J0058,Data Modelling,Data & Analytics
+J0058,Data Warehousing,Data & Analytics
+J0059,ETL / Data Pipelines,Data & Analytics
+J0065,Data Modelling,Data & Analytics
+J0065,Data Warehousing,Data & Analytics
+J0065,Advanced Excel,Data & Analytics
+J0066,Data Modelling,Data & Analytics
+J0066,Tableau,Data & Analytics
+J0069,Data Modelling,Data & Analytics
+J0069,Machine Learning,Data & Analytics
+J0069,Tableau,Data & Analytics
+J0070,Data Warehousing,Data & Analytics
+J0070,ETL / Data Pipelines,Data & Analytics
+J0070,Tableau,Data & Analytics
+J0073,Advanced Excel,Data & Analytics
+J0079,ETL / Data Pipelines,Data & Analytics
+J0079,Tableau,Data & Analytics
+J0091,Power BI,Data & Analytics
+J0101,Data Modelling,Data & Analytics
+J0101,ETL / Data Pipelines,Data & Analytics
+J0101,Advanced Excel,Data & Analytics
+J0103,Power BI,Data & Analytics
+J0103,Data Warehousing,Data & Analytics
+J0103,Machine Learning,Data & Analytics
+J0103,ETL / Data Pipelines,Data & Analytics
+J0105,Power BI,Data & Analytics
+J0105,Data Modelling,Data & Analytics
+J0106,Power BI,Data & Analytics
+J0106,Data Modelling,Data & Analytics
+J0106,ETL / Data Pipelines,Data & Analytics
+J0109,Advanced Excel,Data & Analytics
+J0109,Tableau,Data & Analytics
+J0115,Tableau,Data & Analytics
+J0115,Data Modelling,Data & Analytics
+J0116,Machine Learning,Data & Analytics
+J0116,Tableau,Data & Analytics
+J0125,Power BI,Data & Analytics
+J0125,Machine Learning,Data & Analytics
+J0125,Tableau,Data & Analytics
+J0128,Data Warehousing,Data & Analytics
+J0128,ETL / Data Pipelines,Data & Analytics
+J0130,Advanced Excel,Data & Analytics
+J0131,Data Modelling,Data & Analytics
+J0133,Data Warehousing,Data & Analytics
+J0141,Data Warehousing,Data & Analytics
+J0141,Power BI,Data & Analytics
+J0143,Machine Learning,Data & Analytics
+J0143,Tableau,Data & Analytics
+J0146,Power BI,Data & Analytics
+J0146,Data Warehousing,Data & Analytics
+J0146,ETL / Data Pipelines,Data & Analytics
+J0147,Machine Learning,Data & Analytics
+J0149,Data Modelling,Data & Analytics
+J0149,Data Warehousing,Data & Analytics
+J0152,Data Warehousing,Data & Analytics
+J0152,ETL / Data Pipelines,Data & Analytics
+J0152,Tableau,Data & Analytics
+J0153,Data Warehousing,Data & Analytics
+J0153,ETL / Data Pipelines,Data & Analytics
+J0158,Power BI,Data & Analytics
+J0158,Tableau,Data & Analytics
+J0160,Advanced Excel,Data & Analytics
+J0160,Data Modelling,Data & Analytics
+J0161,Data Warehousing,Data & Analytics
+J0162,Power BI,Data & Analytics
+J0170,Data Warehousing,Data & Analytics
+J0172,Tableau,Data & Analytics
+J0175,Data Warehousing,Data & Analytics
+J0175,Tableau,Data & Analytics
+J0176,Machine Learning,Data & Analytics
+J0179,Data Modelling,Data & Analytics
+J0179,Advanced Excel,Data & Analytics
+J0186,Machine Learning,Data & Analytics
+J0189,Data Warehousing,Data & Analytics
+J0189,Tableau,Data & Analytics
+J0193,Tableau,Data & Analytics
+J0194,Data Warehousing,Data & Analytics
+J0198,Data Warehousing,Data & Analytics
+J0198,Tableau,Data & Analytics
+J0202,Machine Learning,Data & Analytics
+J0202,Data Warehousing,Data & Analytics
+J0206,Machine Learning,Data & Analytics
+J0212,Power BI,Data & Analytics
+J0212,Data Warehousing,Data & Analytics
+J0215,Data Modelling,Data & Analytics
+J0218,Data Warehousing,Data & Analytics
+J0218,Advanced Excel,Data & Analytics
+J0221,Machine Learning,Data & Analytics
+J0222,Data Warehousing,Data & Analytics
+J0222,Machine Learning,Data & Analytics
+J0246,Power BI,Data & Analytics
+J0248,Data Warehousing,Data & Analytics
+J0249,Power BI,Data & Analytics
+J0249,Data Warehousing,Data & Analytics
+J0249,Machine Learning,Data & Analytics
+J0249,ETL / Data Pipelines,Data & Analytics
+J0253,Power BI,Data & Analytics
+J0253,Machine Learning,Data & Analytics
+J0253,Tableau,Data & Analytics
+J0254,Data Modelling,Data & Analytics
+J0254,Data Warehousing,Data & Analytics
+J0254,ETL / Data Pipelines,Data & Analytics
+J0254,Tableau,Data & Analytics
+J0257,Machine Learning,Data & Analytics
+J0257,Power BI,Data & Analytics
+J0260,Power BI,Data & Analytics
+J0260,Data Warehousing,Data & Analytics
+J0261,ETL / Data Pipelines,Data & Analytics
+J0261,Data Warehousing,Data & Analytics
+J0280,ETL / Data Pipelines,Data & Analytics
+J0280,Tableau,Data & Analytics
+J0281,Machine Learning,Data & Analytics
+J0281,Data Warehousing,Data & Analytics
+J0284,Data Warehousing,Data & Analytics
+J0284,Advanced Excel,Data & Analytics
+J0285,Power BI,Data & Analytics
+J0287,Data Warehousing,Data & Analytics
+J0287,ETL / Data Pipelines,Data & Analytics
+J0287,Tableau,Data & Analytics
+J0302,Data Modelling,Data & Analytics
+J0310,Machine Learning,Data & Analytics
+J0316,Data Warehousing,Data & Analytics
+J0316,Machine Learning,Data & Analytics
+J0316,ETL / Data Pipelines,Data & Analytics
+J0331,Power BI,Data & Analytics
+J0331,Data Modelling,Data & Analytics
+J0331,Advanced Excel,Data & Analytics
+J0331,Machine Learning,Data & Analytics
+J0332,Data Warehousing,Data & Analytics
+J0332,Power BI,Data & Analytics
+J0333,Power BI,Data & Analytics
+J0338,Power BI,Data & Analytics
+J0338,Data Warehousing,Data & Analytics
+J0338,ETL / Data Pipelines,Data & Analytics
+J0339,Machine Learning,Data & Analytics
+J0341,Power BI,Data & Analytics
+J0341,Data Modelling,Data & Analytics
+J0341,Tableau,Data & Analytics
+J0349,Data Modelling,Data & Analytics
+J0349,Advanced Excel,Data & Analytics
+J0349,Power BI,Data & Analytics
+J0349,Data Warehousing,Data & Analytics
+J0349,Machine Learning,Data & Analytics
+J0349,Tableau,Data & Analytics
+J0353,ETL / Data Pipelines,Data & Analytics
+J0353,Tableau,Data & Analytics
+J0359,ETL / Data Pipelines,Data & Analytics
+J0365,Power BI,Data & Analytics
+J0365,Data Warehousing,Data & Analytics
+J0369,Data Warehousing,Data & Analytics
+J0369,Tableau,Data & Analytics
+J0379,Machine Learning,Data & Analytics
+J0379,Data Modelling,Data & Analytics
+J0379,ETL / Data Pipelines,Data & Analytics
+J0379,Advanced Excel,Data & Analytics
+J0379,Tableau,Data & Analytics
+J0382,ETL / Data Pipelines,Data & Analytics
+J0382,Data Modelling,Data & Analytics
+J0383,Power BI,Data & Analytics
+J0383,ETL / Data Pipelines,Data & Analytics
+J0383,Tableau,Data & Analytics
+J0397,Advanced Excel,Data & Analytics
+J0397,Power BI,Data & Analytics
+J0399,Power BI,Data & Analytics
+J0399,Data Warehousing,Data & Analytics
+J0399,Advanced Excel,Data & Analytics
+J0007,Google Cloud Platform,Cloud Platforms
+J0011,Microsoft Azure,Cloud Platforms
+J0012,Microsoft Azure,Cloud Platforms
+J0017,Microsoft Azure,Cloud Platforms
+J0018,Microsoft Azure,Cloud Platforms
+J0019,Microsoft Azure,Cloud Platforms
+J0023,Microsoft Azure,Cloud Platforms
+J0023,Google Cloud Platform,Cloud Platforms
+J0028,Microsoft Azure,Cloud Platforms
+J0031,Microsoft Azure,Cloud Platforms
+J0034,Google Cloud Platform,Cloud Platforms
+J0039,Google Cloud Platform,Cloud Platforms
+J0042,Google Cloud Platform,Cloud Platforms
+J0042,Microsoft Azure,Cloud Platforms
+J0043,Google Cloud Platform,Cloud Platforms
+J0044,Google Cloud Platform,Cloud Platforms
+J0046,Microsoft Azure,Cloud Platforms
+J0046,Google Cloud Platform,Cloud Platforms
+J0048,Microsoft Azure,Cloud Platforms
+J0049,Google Cloud Platform,Cloud Platforms
+J0050,Microsoft Azure,Cloud Platforms
+J0051,Microsoft Azure,Cloud Platforms
+J0055,Microsoft Azure,Cloud Platforms
+J0055,Google Cloud Platform,Cloud Platforms
+J0057,Microsoft Azure,Cloud Platforms
+J0057,Google Cloud Platform,Cloud Platforms
+J0071,Microsoft Azure,Cloud Platforms
+J0071,Google Cloud Platform,Cloud Platforms
+J0072,Google Cloud Platform,Cloud Platforms
+J0077,Microsoft Azure,Cloud Platforms
+J0077,Google Cloud Platform,Cloud Platforms
+J0081,Google Cloud Platform,Cloud Platforms
+J0083,Microsoft Azure,Cloud Platforms
+J0083,Google Cloud Platform,Cloud Platforms
+J0084,Google Cloud Platform,Cloud Platforms
+J0084,Microsoft Azure,Cloud Platforms
+J0088,Microsoft Azure,Cloud Platforms
+J0089,Microsoft Azure,Cloud Platforms
+J0097,Microsoft Azure,Cloud Platforms
+J0108,Microsoft Azure,Cloud Platforms
+J0117,Microsoft Azure,Cloud Platforms
+J0117,Google Cloud Platform,Cloud Platforms
+J0122,Microsoft Azure,Cloud Platforms
+J0122,Google Cloud Platform,Cloud Platforms
+J0127,Microsoft Azure,Cloud Platforms
+J0128,Google Cloud Platform,Cloud Platforms
+J0129,Microsoft Azure,Cloud Platforms
+J0134,Google Cloud Platform,Cloud Platforms
+J0142,Microsoft Azure,Cloud Platforms
+J0145,Google Cloud Platform,Cloud Platforms
+J0145,Microsoft Azure,Cloud Platforms
+J0148,Google Cloud Platform,Cloud Platforms
+J0180,Google Cloud Platform,Cloud Platforms
+J0181,Google Cloud Platform,Cloud Platforms
+J0184,Google Cloud Platform,Cloud Platforms
+J0186,Microsoft Azure,Cloud Platforms
+J0189,Microsoft Azure,Cloud Platforms
+J0189,Google Cloud Platform,Cloud Platforms
+J0195,Microsoft Azure,Cloud Platforms
+J0196,Microsoft Azure,Cloud Platforms
+J0200,Google Cloud Platform,Cloud Platforms
+J0201,Google Cloud Platform,Cloud Platforms
+J0210,Microsoft Azure,Cloud Platforms
+J0210,Google Cloud Platform,Cloud Platforms
+J0213,Microsoft Azure,Cloud Platforms
+J0215,Microsoft Azure,Cloud Platforms
+J0219,Microsoft Azure,Cloud Platforms
+J0228,Google Cloud Platform,Cloud Platforms
+J0229,Microsoft Azure,Cloud Platforms
+J0230,Google Cloud Platform,Cloud Platforms
+J0236,Microsoft Azure,Cloud Platforms
+J0241,Microsoft Azure,Cloud Platforms
+J0242,Google Cloud Platform,Cloud Platforms
+J0246,Google Cloud Platform,Cloud Platforms
+J0256,Microsoft Azure,Cloud Platforms
+J0258,Google Cloud Platform,Cloud Platforms
+J0258,Microsoft Azure,Cloud Platforms
+J0265,Microsoft Azure,Cloud Platforms
+J0265,Google Cloud Platform,Cloud Platforms
+J0273,Microsoft Azure,Cloud Platforms
+J0273,Google Cloud Platform,Cloud Platforms
+J0277,Google Cloud Platform,Cloud Platforms
+J0283,Microsoft Azure,Cloud Platforms
+J0291,Microsoft Azure,Cloud Platforms
+J0291,Google Cloud Platform,Cloud Platforms
+J0292,Google Cloud Platform,Cloud Platforms
+J0297,Google Cloud Platform,Cloud Platforms
+J0297,Microsoft Azure,Cloud Platforms
+J0303,Microsoft Azure,Cloud Platforms
+J0303,Google Cloud Platform,Cloud Platforms
+J0307,Microsoft Azure,Cloud Platforms
+J0307,Google Cloud Platform,Cloud Platforms
+J0313,Microsoft Azure,Cloud Platforms
+J0320,Microsoft Azure,Cloud Platforms
+J0320,Google Cloud Platform,Cloud Platforms
+J0321,Google Cloud Platform,Cloud Platforms
+J0324,Google Cloud Platform,Cloud Platforms
+J0328,Microsoft Azure,Cloud Platforms
+J0333,Microsoft Azure,Cloud Platforms
+J0335,Google Cloud Platform,Cloud Platforms
+J0335,Microsoft Azure,Cloud Platforms
+J0344,Microsoft Azure,Cloud Platforms
+J0345,Google Cloud Platform,Cloud Platforms
+J0351,Google Cloud Platform,Cloud Platforms
+J0352,Google Cloud Platform,Cloud Platforms
+J0353,Microsoft Azure,Cloud Platforms
+J0353,Google Cloud Platform,Cloud Platforms
+J0357,Microsoft Azure,Cloud Platforms
+J0361,Microsoft Azure,Cloud Platforms
+J0364,Microsoft Azure,Cloud Platforms
+J0364,Google Cloud Platform,Cloud Platforms
+J0375,Google Cloud Platform,Cloud Platforms
+J0378,Microsoft Azure,Cloud Platforms
+J0378,Google Cloud Platform,Cloud Platforms
+J0394,Microsoft Azure,Cloud Platforms
+J0397,Microsoft Azure,Cloud Platforms
+J0398,Google Cloud Platform,Cloud Platforms
+J0001,AWS,Cloud Platforms
+J0007,AWS,Cloud Platforms
+J0018,AWS,Cloud Platforms
+J0034,AWS,Cloud Platforms
+J0042,AWS,Cloud Platforms
+J0048,AWS,Cloud Platforms
+J0049,AWS,Cloud Platforms
+J0053,AWS,Cloud Platforms
+J0068,AWS,Cloud Platforms
+J0072,AWS,Cloud Platforms
+J0074,AWS,Cloud Platforms
+J0079,AWS,Cloud Platforms
+J0083,AWS,Cloud Platforms
+J0084,AWS,Cloud Platforms
+J0086,AWS,Cloud Platforms
+J0088,AWS,Cloud Platforms
+J0091,AWS,Cloud Platforms
+J0092,AWS,Cloud Platforms
+J0097,AWS,Cloud Platforms
+J0107,AWS,Cloud Platforms
+J0127,AWS,Cloud Platforms
+J0135,AWS,Cloud Platforms
+J0142,AWS,Cloud Platforms
+J0145,AWS,Cloud Platforms
+J0148,AWS,Cloud Platforms
+J0180,AWS,Cloud Platforms
+J0186,AWS,Cloud Platforms
+J0190,AWS,Cloud Platforms
+J0195,AWS,Cloud Platforms
+J0201,AWS,Cloud Platforms
+J0203,AWS,Cloud Platforms
+J0210,AWS,Cloud Platforms
+J0215,AWS,Cloud Platforms
+J0219,AWS,Cloud Platforms
+J0220,AWS,Cloud Platforms
+J0228,AWS,Cloud Platforms
+J0229,AWS,Cloud Platforms
+J0241,AWS,Cloud Platforms
+J0246,AWS,Cloud Platforms
+J0258,AWS,Cloud Platforms
+J0269,AWS,Cloud Platforms
+J0277,AWS,Cloud Platforms
+J0286,AWS,Cloud Platforms
+J0291,AWS,Cloud Platforms
+J0303,AWS,Cloud Platforms
+J0307,AWS,Cloud Platforms
+J0320,AWS,Cloud Platforms
+J0322,AWS,Cloud Platforms
+J0323,AWS,Cloud Platforms
+J0325,AWS,Cloud Platforms
+J0329,AWS,Cloud Platforms
+J0333,AWS,Cloud Platforms
+J0339,AWS,Cloud Platforms
+J0345,AWS,Cloud Platforms
+J0359,AWS,Cloud Platforms
+J0364,AWS,Cloud Platforms
+J0375,AWS,Cloud Platforms
+J0384,AWS,Cloud Platforms
+J0389,AWS,Cloud Platforms
+J0390,AWS,Cloud Platforms
+J0392,AWS,Cloud Platforms
+J0394,AWS,Cloud Platforms
+J0395,AWS,Cloud Platforms
+J0399,AWS,Cloud Platforms
+J0001,Industry Engagement & Partnerships,Teaching & Academic
+J0001,Research & Academic Publication,Teaching & Academic
+J0012,Industry Engagement & Partnerships,Teaching & Academic
+J0012,Student Supervision & Mentoring,Teaching & Academic
+J0014,Research & Academic Publication,Teaching & Academic
+J0015,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0027,Student Supervision & Mentoring,Teaching & Academic
+J0027,Research & Academic Publication,Teaching & Academic
+J0027,Curriculum Design & Development,Teaching & Academic
+J0032,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0032,Teaching & Assessment (ICT),Teaching & Academic
+J0032,Curriculum Design & Development,Teaching & Academic
+J0032,Grant/Research Funding Applications,Teaching & Academic
+J0032,Research & Academic Publication,Teaching & Academic
+J0033,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0033,Student Supervision & Mentoring,Teaching & Academic
+J0035,Grant/Research Funding Applications,Teaching & Academic
+J0035,Research & Academic Publication,Teaching & Academic
+J0036,Grant/Research Funding Applications,Teaching & Academic
+J0040,Teaching & Assessment (ICT),Teaching & Academic
+J0040,Curriculum Design & Development,Teaching & Academic
+J0040,Research & Academic Publication,Teaching & Academic
+J0040,Student Supervision & Mentoring,Teaching & Academic
+J0049,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0049,Industry Engagement & Partnerships,Teaching & Academic
+J0049,Student Supervision & Mentoring,Teaching & Academic
+J0058,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0058,Curriculum Design & Development,Teaching & Academic
+J0058,Industry Engagement & Partnerships,Teaching & Academic
+J0058,Research & Academic Publication,Teaching & Academic
+J0059,Research & Academic Publication,Teaching & Academic
+J0059,Student Supervision & Mentoring,Teaching & Academic
+J0067,Student Supervision & Mentoring,Teaching & Academic
+J0067,Grant/Research Funding Applications,Teaching & Academic
+J0076,Curriculum Design & Development,Teaching & Academic
+J0078,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0078,Curriculum Design & Development,Teaching & Academic
+J0078,Industry Engagement & Partnerships,Teaching & Academic
+J0078,Student Supervision & Mentoring,Teaching & Academic
+J0088,Teaching & Assessment (ICT),Teaching & Academic
+J0088,Curriculum Design & Development,Teaching & Academic
+J0088,Grant/Research Funding Applications,Teaching & Academic
+J0088,Research & Academic Publication,Teaching & Academic
+J0091,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0091,Industry Engagement & Partnerships,Teaching & Academic
+J0091,Student Supervision & Mentoring,Teaching & Academic
+J0094,Teaching & Assessment (ICT),Teaching & Academic
+J0098,Industry Engagement & Partnerships,Teaching & Academic
+J0098,Research & Academic Publication,Teaching & Academic
+J0099,Research & Academic Publication,Teaching & Academic
+J0099,Student Supervision & Mentoring,Teaching & Academic
+J0105,Curriculum Design & Development,Teaching & Academic
+J0105,Student Supervision & Mentoring,Teaching & Academic
+J0109,Student Supervision & Mentoring,Teaching & Academic
+J0109,Research & Academic Publication,Teaching & Academic
+J0113,Teaching & Assessment (ICT),Teaching & Academic
+J0113,Grant/Research Funding Applications,Teaching & Academic
+J0120,Curriculum Design & Development,Teaching & Academic
+J0120,Research & Academic Publication,Teaching & Academic
+J0137,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0137,Teaching & Assessment (ICT),Teaching & Academic
+J0137,Industry Engagement & Partnerships,Teaching & Academic
+J0137,Research & Academic Publication,Teaching & Academic
+J0137,Student Supervision & Mentoring,Teaching & Academic
+J0146,Student Supervision & Mentoring,Teaching & Academic
+J0150,Student Supervision & Mentoring,Teaching & Academic
+J0150,Curriculum Design & Development,Teaching & Academic
+J0151,Student Supervision & Mentoring,Teaching & Academic
+J0158,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0158,Teaching & Assessment (ICT),Teaching & Academic
+J0158,Industry Engagement & Partnerships,Teaching & Academic
+J0158,Student Supervision & Mentoring,Teaching & Academic
+J0160,Grant/Research Funding Applications,Teaching & Academic
+J0173,Grant/Research Funding Applications,Teaching & Academic
+J0173,Industry Engagement & Partnerships,Teaching & Academic
+J0173,Research & Academic Publication,Teaching & Academic
+J0173,Student Supervision & Mentoring,Teaching & Academic
+J0174,Teaching & Assessment (ICT),Teaching & Academic
+J0174,Industry Engagement & Partnerships,Teaching & Academic
+J0174,Research & Academic Publication,Teaching & Academic
+J0177,Teaching & Assessment (ICT),Teaching & Academic
+J0177,Student Supervision & Mentoring,Teaching & Academic
+J0178,Research & Academic Publication,Teaching & Academic
+J0180,Student Supervision & Mentoring,Teaching & Academic
+J0180,Teaching & Assessment (ICT),Teaching & Academic
+J0182,Curriculum Design & Development,Teaching & Academic
+J0182,Research & Academic Publication,Teaching & Academic
+J0183,Teaching & Assessment (ICT),Teaching & Academic
+J0187,Grant/Research Funding Applications,Teaching & Academic
+J0187,Industry Engagement & Partnerships,Teaching & Academic
+J0188,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0188,Student Supervision & Mentoring,Teaching & Academic
+J0191,Research & Academic Publication,Teaching & Academic
+J0193,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0193,Curriculum Design & Development,Teaching & Academic
+J0193,Industry Engagement & Partnerships,Teaching & Academic
+J0193,Student Supervision & Mentoring,Teaching & Academic
+J0200,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0200,Curriculum Design & Development,Teaching & Academic
+J0200,Grant/Research Funding Applications,Teaching & Academic
+J0200,Industry Engagement & Partnerships,Teaching & Academic
+J0200,Student Supervision & Mentoring,Teaching & Academic
+J0204,Curriculum Design & Development,Teaching & Academic
+J0205,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0221,Teaching & Assessment (ICT),Teaching & Academic
+J0221,Industry Engagement & Partnerships,Teaching & Academic
+J0222,Teaching & Assessment (ICT),Teaching & Academic
+J0222,Grant/Research Funding Applications,Teaching & Academic
+J0222,Student Supervision & Mentoring,Teaching & Academic
+J0223,Curriculum Design & Development,Teaching & Academic
+J0223,Industry Engagement & Partnerships,Teaching & Academic
+J0233,Teaching & Assessment (ICT),Teaching & Academic
+J0246,Teaching & Assessment (ICT),Teaching & Academic
+J0246,Student Supervision & Mentoring,Teaching & Academic
+J0248,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0255,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0262,Research & Academic Publication,Teaching & Academic
+J0263,Industry Engagement & Partnerships,Teaching & Academic
+J0263,Research & Academic Publication,Teaching & Academic
+J0268,Curriculum Design & Development,Teaching & Academic
+J0268,Research & Academic Publication,Teaching & Academic
+J0271,Grant/Research Funding Applications,Teaching & Academic
+J0271,Student Supervision & Mentoring,Teaching & Academic
+J0275,Research & Academic Publication,Teaching & Academic
+J0278,Curriculum Design & Development,Teaching & Academic
+J0280,Research & Academic Publication,Teaching & Academic
+J0293,Research & Academic Publication,Teaching & Academic
+J0293,Student Supervision & Mentoring,Teaching & Academic
+J0297,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0297,Curriculum Design & Development,Teaching & Academic
+J0297,Industry Engagement & Partnerships,Teaching & Academic
+J0299,Research & Academic Publication,Teaching & Academic
+J0299,Teaching & Assessment (ICT),Teaching & Academic
+J0302,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0302,Teaching & Assessment (ICT),Teaching & Academic
+J0302,Student Supervision & Mentoring,Teaching & Academic
+J0305,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0305,Grant/Research Funding Applications,Teaching & Academic
+J0305,Industry Engagement & Partnerships,Teaching & Academic
+J0308,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0308,Teaching & Assessment (ICT),Teaching & Academic
+J0308,Industry Engagement & Partnerships,Teaching & Academic
+J0308,Research & Academic Publication,Teaching & Academic
+J0308,Student Supervision & Mentoring,Teaching & Academic
+J0314,Grant/Research Funding Applications,Teaching & Academic
+J0314,Industry Engagement & Partnerships,Teaching & Academic
+J0319,Teaching & Assessment (ICT),Teaching & Academic
+J0343,Grant/Research Funding Applications,Teaching & Academic
+J0343,Teaching & Assessment (ICT),Teaching & Academic
+J0358,Teaching & Assessment (ICT),Teaching & Academic
+J0358,Grant/Research Funding Applications,Teaching & Academic
+J0358,Industry Engagement & Partnerships,Teaching & Academic
+J0366,Learning Management Systems (Moodle/Canvas),Teaching & Academic
+J0366,Student Supervision & Mentoring,Teaching & Academic
+J0369,Curriculum Design & Development,Teaching & Academic
+J0369,Grant/Research Funding Applications,Teaching & Academic
+J0377,Teaching & Assessment (ICT),Teaching & Academic
+J0377,Curriculum Design & Development,Teaching & Academic
+J0377,Industry Engagement & Partnerships,Teaching & Academic
+J0377,Research & Academic Publication,Teaching & Academic
+J0383,Research & Academic Publication,Teaching & Academic
+J0383,Student Supervision & Mentoring,Teaching & Academic
+J0385,Curriculum Design & Development,Teaching & Academic
+J0385,Grant/Research Funding Applications,Teaching & Academic
+J0385,Student Supervision & Mentoring,Teaching & Academic
+J0387,Teaching & Assessment (ICT),Teaching & Academic
+J0395,Industry Engagement & Partnerships,Teaching & Academic
+J0395,Research & Academic Publication,Teaching & Academic
+J0007,Ansible,DevOps & Infrastructure
+J0011,Ansible,DevOps & Infrastructure
+J0011,Linux Administration,DevOps & Infrastructure
+J0018,Windows Server Administration,DevOps & Infrastructure
+J0018,Docker,DevOps & Infrastructure
+J0018,Linux Administration,DevOps & Infrastructure
+J0019,Terraform,DevOps & Infrastructure
+J0019,Windows Server Administration,DevOps & Infrastructure
+J0020,Ansible,DevOps & Infrastructure
+J0024,Linux Administration,DevOps & Infrastructure
+J0034,Kubernetes,DevOps & Infrastructure
+J0038,CI/CD Pipelines,DevOps & Infrastructure
+J0038,Ansible,DevOps & Infrastructure
+J0042,Ansible,DevOps & Infrastructure
+J0042,Windows Server Administration,DevOps & Infrastructure
+J0045,Terraform,DevOps & Infrastructure
+J0052,Kubernetes,DevOps & Infrastructure
+J0052,Windows Server Administration,DevOps & Infrastructure
+J0064,Kubernetes,DevOps & Infrastructure
+J0071,Terraform,DevOps & Infrastructure
+J0074,Linux Administration,DevOps & Infrastructure
+J0077,Kubernetes,DevOps & Infrastructure
+J0077,Linux Administration,DevOps & Infrastructure
+J0083,Docker,DevOps & Infrastructure
+J0084,Ansible,DevOps & Infrastructure
+J0087,Ansible,DevOps & Infrastructure
+J0089,CI/CD Pipelines,DevOps & Infrastructure
+J0089,Windows Server Administration,DevOps & Infrastructure
+J0097,Ansible,DevOps & Infrastructure
+J0100,Windows Server Administration,DevOps & Infrastructure
+J0100,Linux Administration,DevOps & Infrastructure
+J0107,Kubernetes,DevOps & Infrastructure
+J0107,Ansible,DevOps & Infrastructure
+J0108,CI/CD Pipelines,DevOps & Infrastructure
+J0111,Docker,DevOps & Infrastructure
+J0113,Ansible,DevOps & Infrastructure
+J0117,Terraform,DevOps & Infrastructure
+J0117,CI/CD Pipelines,DevOps & Infrastructure
+J0117,Docker,DevOps & Infrastructure
+J0117,Linux Administration,DevOps & Infrastructure
+J0118,Terraform,DevOps & Infrastructure
+J0121,CI/CD Pipelines,DevOps & Infrastructure
+J0121,Docker,DevOps & Infrastructure
+J0122,Linux Administration,DevOps & Infrastructure
+J0127,Ansible,DevOps & Infrastructure
+J0129,Terraform,DevOps & Infrastructure
+J0129,Windows Server Administration,DevOps & Infrastructure
+J0129,Docker,DevOps & Infrastructure
+J0134,Terraform,DevOps & Infrastructure
+J0134,Linux Administration,DevOps & Infrastructure
+J0135,Kubernetes,DevOps & Infrastructure
+J0135,Windows Server Administration,DevOps & Infrastructure
+J0139,CI/CD Pipelines,DevOps & Infrastructure
+J0144,Windows Server Administration,DevOps & Infrastructure
+J0145,Kubernetes,DevOps & Infrastructure
+J0145,Ansible,DevOps & Infrastructure
+J0145,Windows Server Administration,DevOps & Infrastructure
+J0148,Windows Server Administration,DevOps & Infrastructure
+J0155,Docker,DevOps & Infrastructure
+J0155,Linux Administration,DevOps & Infrastructure
+J0159,Ansible,DevOps & Infrastructure
+J0183,Terraform,DevOps & Infrastructure
+J0184,Terraform,DevOps & Infrastructure
+J0184,Docker,DevOps & Infrastructure
+J0184,Linux Administration,DevOps & Infrastructure
+J0195,CI/CD Pipelines,DevOps & Infrastructure
+J0210,Docker,DevOps & Infrastructure
+J0213,Kubernetes,DevOps & Infrastructure
+J0213,Terraform,DevOps & Infrastructure
+J0214,Docker,DevOps & Infrastructure
+J0219,Terraform,DevOps & Infrastructure
+J0228,CI/CD Pipelines,DevOps & Infrastructure
+J0228,Docker,DevOps & Infrastructure
+J0229,Ansible,DevOps & Infrastructure
+J0232,Terraform,DevOps & Infrastructure
+J0234,Kubernetes,DevOps & Infrastructure
+J0234,Ansible,DevOps & Infrastructure
+J0234,Windows Server Administration,DevOps & Infrastructure
+J0244,Kubernetes,DevOps & Infrastructure
+J0251,Ansible,DevOps & Infrastructure
+J0252,Terraform,DevOps & Infrastructure
+J0258,Ansible,DevOps & Infrastructure
+J0258,Linux Administration,DevOps & Infrastructure
+J0262,Terraform,DevOps & Infrastructure
+J0262,Windows Server Administration,DevOps & Infrastructure
+J0262,Linux Administration,DevOps & Infrastructure
+J0265,Terraform,DevOps & Infrastructure
+J0268,CI/CD Pipelines,DevOps & Infrastructure
+J0282,Linux Administration,DevOps & Infrastructure
+J0283,Ansible,DevOps & Infrastructure
+J0288,CI/CD Pipelines,DevOps & Infrastructure
+J0293,Docker,DevOps & Infrastructure
+J0293,Ansible,DevOps & Infrastructure
+J0295,CI/CD Pipelines,DevOps & Infrastructure
+J0296,Docker,DevOps & Infrastructure
+J0300,Windows Server Administration,DevOps & Infrastructure
+J0303,Ansible,DevOps & Infrastructure
+J0307,Linux Administration,DevOps & Infrastructure
+J0308,Linux Administration,DevOps & Infrastructure
+J0312,Ansible,DevOps & Infrastructure
+J0313,Linux Administration,DevOps & Infrastructure
+J0317,Ansible,DevOps & Infrastructure
+J0320,Linux Administration,DevOps & Infrastructure
+J0321,Kubernetes,DevOps & Infrastructure
+J0323,CI/CD Pipelines,DevOps & Infrastructure
+J0323,Docker,DevOps & Infrastructure
+J0324,Windows Server Administration,DevOps & Infrastructure
+J0324,Linux Administration,DevOps & Infrastructure
+J0325,Ansible,DevOps & Infrastructure
+J0325,Linux Administration,DevOps & Infrastructure
+J0327,CI/CD Pipelines,DevOps & Infrastructure
+J0335,Windows Server Administration,DevOps & Infrastructure
+J0335,Linux Administration,DevOps & Infrastructure
+J0342,Windows Server Administration,DevOps & Infrastructure
+J0342,Linux Administration,DevOps & Infrastructure
+J0343,Ansible,DevOps & Infrastructure
+J0344,Terraform,DevOps & Infrastructure
+J0344,Docker,DevOps & Infrastructure
+J0352,Terraform,DevOps & Infrastructure
+J0352,Kubernetes,DevOps & Infrastructure
+J0354,Ansible,DevOps & Infrastructure
+J0354,Windows Server Administration,DevOps & Infrastructure
+J0354,Docker,DevOps & Infrastructure
+J0355,Kubernetes,DevOps & Infrastructure
+J0356,Windows Server Administration,DevOps & Infrastructure
+J0356,Docker,DevOps & Infrastructure
+J0357,Kubernetes,DevOps & Infrastructure
+J0361,Kubernetes,DevOps & Infrastructure
+J0361,Docker,DevOps & Infrastructure
+J0363,Kubernetes,DevOps & Infrastructure
+J0364,Ansible,DevOps & Infrastructure
+J0366,Terraform,DevOps & Infrastructure
+J0367,Terraform,DevOps & Infrastructure
+J0368,Kubernetes,DevOps & Infrastructure
+J0368,Ansible,DevOps & Infrastructure
+J0370,Linux Administration,DevOps & Infrastructure
+J0373,Kubernetes,DevOps & Infrastructure
+J0373,Ansible,DevOps & Infrastructure
+J0376,Ansible,DevOps & Infrastructure
+J0376,Docker,DevOps & Infrastructure
+J0378,Docker,DevOps & Infrastructure
+J0387,Linux Administration,DevOps & Infrastructure
+J0391,Terraform,DevOps & Infrastructure
+J0392,Terraform,DevOps & Infrastructure
+J0392,Kubernetes,DevOps & Infrastructure
+J0392,Docker,DevOps & Infrastructure
+J0392,Linux Administration,DevOps & Infrastructure
+J0398,Windows Server Administration,DevOps & Infrastructure
+J0398,Docker,DevOps & Infrastructure
+J0400,Terraform,DevOps & Infrastructure
+J0400,Linux Administration,DevOps & Infrastructure
+J0011,Network Security,Networking
+J0020,TCP/IP,Networking
+J0020,Cisco Networking,Networking
+J0024,Network Security,Networking
+J0024,Cisco Networking,Networking
+J0025,Network Security,Networking
+J0025,TCP/IP,Networking
+J0032,TCP/IP,Networking
+J0041,TCP/IP,Networking
+J0041,Cisco Networking,Networking
+J0045,VPN Administration,Networking
+J0045,TCP/IP,Networking
+J0052,Cisco Networking,Networking
+J0052,TCP/IP,Networking
+J0059,Network Security,Networking
+J0059,TCP/IP,Networking
+J0060,VPN Administration,Networking
+J0064,Network Security,Networking
+J0064,VPN Administration,Networking
+J0064,TCP/IP,Networking
+J0072,VPN Administration,Networking
+J0076,TCP/IP,Networking
+J0078,Cisco Networking,Networking
+J0082,Cisco Networking,Networking
+J0082,TCP/IP,Networking
+J0083,Network Security,Networking
+J0083,Cisco Networking,Networking
+J0084,VPN Administration,Networking
+J0084,TCP/IP,Networking
+J0086,Network Security,Networking
+J0086,Cisco Networking,Networking
+J0086,TCP/IP,Networking
+J0089,Network Security,Networking
+J0089,TCP/IP,Networking
+J0090,Network Security,Networking
+J0097,Network Security,Networking
+J0097,VPN Administration,Networking
+J0100,Network Security,Networking
+J0105,Cisco Networking,Networking
+J0107,Cisco Networking,Networking
+J0108,Network Security,Networking
+J0110,TCP/IP,Networking
+J0111,Network Security,Networking
+J0111,Cisco Networking,Networking
+J0111,TCP/IP,Networking
+J0118,TCP/IP,Networking
+J0121,TCP/IP,Networking
+J0129,Cisco Networking,Networking
+J0134,VPN Administration,Networking
+J0140,Network Security,Networking
+J0140,Cisco Networking,Networking
+J0140,VPN Administration,Networking
+J0140,TCP/IP,Networking
+J0144,Network Security,Networking
+J0144,Cisco Networking,Networking
+J0144,TCP/IP,Networking
+J0150,TCP/IP,Networking
+J0164,VPN Administration,Networking
+J0164,Cisco Networking,Networking
+J0179,Cisco Networking,Networking
+J0179,VPN Administration,Networking
+J0185,Network Security,Networking
+J0185,Cisco Networking,Networking
+J0185,VPN Administration,Networking
+J0185,TCP/IP,Networking
+J0192,Network Security,Networking
+J0192,TCP/IP,Networking
+J0196,Cisco Networking,Networking
+J0196,VPN Administration,Networking
+J0201,Cisco Networking,Networking
+J0201,TCP/IP,Networking
+J0214,Network Security,Networking
+J0217,Network Security,Networking
+J0217,VPN Administration,Networking
+J0229,TCP/IP,Networking
+J0232,Cisco Networking,Networking
+J0234,TCP/IP,Networking
+J0235,TCP/IP,Networking
+J0235,Cisco Networking,Networking
+J0237,Network Security,Networking
+J0237,VPN Administration,Networking
+J0237,Cisco Networking,Networking
+J0238,Cisco Networking,Networking
+J0238,TCP/IP,Networking
+J0242,TCP/IP,Networking
+J0242,Cisco Networking,Networking
+J0258,TCP/IP,Networking
+J0267,Network Security,Networking
+J0267,Cisco Networking,Networking
+J0273,Network Security,Networking
+J0273,Cisco Networking,Networking
+J0277,Cisco Networking,Networking
+J0277,TCP/IP,Networking
+J0282,Network Security,Networking
+J0282,Cisco Networking,Networking
+J0282,VPN Administration,Networking
+J0282,TCP/IP,Networking
+J0283,TCP/IP,Networking
+J0288,Cisco Networking,Networking
+J0291,TCP/IP,Networking
+J0295,VPN Administration,Networking
+J0300,Network Security,Networking
+J0311,VPN Administration,Networking
+J0311,TCP/IP,Networking
+J0312,Network Security,Networking
+J0312,TCP/IP,Networking
+J0313,Network Security,Networking
+J0314,Cisco Networking,Networking
+J0314,VPN Administration,Networking
+J0324,Cisco Networking,Networking
+J0324,VPN Administration,Networking
+J0326,VPN Administration,Networking
+J0326,TCP/IP,Networking
+J0328,TCP/IP,Networking
+J0342,Network Security,Networking
+J0342,Cisco Networking,Networking
+J0344,VPN Administration,Networking
+J0344,TCP/IP,Networking
+J0345,TCP/IP,Networking
+J0354,Network Security,Networking
+J0354,Cisco Networking,Networking
+J0354,VPN Administration,Networking
+J0356,Cisco Networking,Networking
+J0358,VPN Administration,Networking
+J0361,VPN Administration,Networking
+J0362,Network Security,Networking
+J0362,Cisco Networking,Networking
+J0364,Network Security,Networking
+J0367,TCP/IP,Networking
+J0368,TCP/IP,Networking
+J0368,VPN Administration,Networking
+J0370,Cisco Networking,Networking
+J0370,TCP/IP,Networking
+J0372,Network Security,Networking
+J0372,Cisco Networking,Networking
+J0372,VPN Administration,Networking
+J0372,TCP/IP,Networking
+J0373,Cisco Networking,Networking
+J0373,VPN Administration,Networking
+J0375,Network Security,Networking
+J0375,TCP/IP,Networking
+J0377,Cisco Networking,Networking
+J0386,VPN Administration,Networking
+J0391,Cisco Networking,Networking
+J0391,TCP/IP,Networking
+J0394,Network Security,Networking
+J0398,TCP/IP,Networking
+J0002,Agile/Scrum,Project & Methodology
+J0003,Agile/Scrum,Project & Methodology
+J0003,ITIL,Project & Methodology
+J0008,Agile/Scrum,Project & Methodology
+J0008,Stakeholder Management,Project & Methodology
+J0019,Agile/Scrum,Project & Methodology
+J0021,PRINCE2,Project & Methodology
+J0021,Stakeholder Management,Project & Methodology
+J0022,Agile/Scrum,Project & Methodology
+J0023,ITIL,Project & Methodology
+J0028,PRINCE2,Project & Methodology
+J0030,PRINCE2,Project & Methodology
+J0031,Project Management,Project & Methodology
+J0031,Stakeholder Management,Project & Methodology
+J0044,Stakeholder Management,Project & Methodology
+J0047,Project Management,Project & Methodology
+J0060,Stakeholder Management,Project & Methodology
+J0061,Agile/Scrum,Project & Methodology
+J0061,ITIL,Project & Methodology
+J0062,ITIL,Project & Methodology
+J0062,Agile/Scrum,Project & Methodology
+J0066,Agile/Scrum,Project & Methodology
+J0066,Project Management,Project & Methodology
+J0066,PRINCE2,Project & Methodology
+J0066,ITIL,Project & Methodology
+J0066,Stakeholder Management,Project & Methodology
+J0073,PRINCE2,Project & Methodology
+J0074,Stakeholder Management,Project & Methodology
+J0075,PRINCE2,Project & Methodology
+J0076,PRINCE2,Project & Methodology
+J0080,ITIL,Project & Methodology
+J0087,ITIL,Project & Methodology
+J0093,Project Management,Project & Methodology
+J0101,Agile/Scrum,Project & Methodology
+J0101,Project Management,Project & Methodology
+J0101,ITIL,Project & Methodology
+J0112,Project Management,Project & Methodology
+J0112,PRINCE2,Project & Methodology
+J0112,ITIL,Project & Methodology
+J0115,Project Management,Project & Methodology
+J0119,PRINCE2,Project & Methodology
+J0119,Stakeholder Management,Project & Methodology
+J0124,Project Management,Project & Methodology
+J0124,PRINCE2,Project & Methodology
+J0127,Project Management,Project & Methodology
+J0130,ITIL,Project & Methodology
+J0132,Project Management,Project & Methodology
+J0132,Stakeholder Management,Project & Methodology
+J0136,ITIL,Project & Methodology
+J0138,Agile/Scrum,Project & Methodology
+J0139,PRINCE2,Project & Methodology
+J0147,Project Management,Project & Methodology
+J0147,PRINCE2,Project & Methodology
+J0148,Agile/Scrum,Project & Methodology
+J0148,Project Management,Project & Methodology
+J0148,Stakeholder Management,Project & Methodology
+J0153,Agile/Scrum,Project & Methodology
+J0153,Project Management,Project & Methodology
+J0153,ITIL,Project & Methodology
+J0154,Agile/Scrum,Project & Methodology
+J0154,PRINCE2,Project & Methodology
+J0155,Agile/Scrum,Project & Methodology
+J0155,ITIL,Project & Methodology
+J0156,PRINCE2,Project & Methodology
+J0156,Stakeholder Management,Project & Methodology
+J0163,Stakeholder Management,Project & Methodology
+J0167,Agile/Scrum,Project & Methodology
+J0167,Project Management,Project & Methodology
+J0169,Agile/Scrum,Project & Methodology
+J0171,PRINCE2,Project & Methodology
+J0176,ITIL,Project & Methodology
+J0176,Project Management,Project & Methodology
+J0192,Agile/Scrum,Project & Methodology
+J0192,PRINCE2,Project & Methodology
+J0195,Stakeholder Management,Project & Methodology
+J0196,ITIL,Project & Methodology
+J0197,Agile/Scrum,Project & Methodology
+J0199,Stakeholder Management,Project & Methodology
+J0206,Project Management,Project & Methodology
+J0206,PRINCE2,Project & Methodology
+J0207,Stakeholder Management,Project & Methodology
+J0210,Agile/Scrum,Project & Methodology
+J0216,Stakeholder Management,Project & Methodology
+J0216,Project Management,Project & Methodology
+J0224,PRINCE2,Project & Methodology
+J0225,Agile/Scrum,Project & Methodology
+J0226,Agile/Scrum,Project & Methodology
+J0227,PRINCE2,Project & Methodology
+J0232,PRINCE2,Project & Methodology
+J0232,Stakeholder Management,Project & Methodology
+J0239,PRINCE2,Project & Methodology
+J0239,Stakeholder Management,Project & Methodology
+J0251,Project Management,Project & Methodology
+J0252,Project Management,Project & Methodology
+J0252,PRINCE2,Project & Methodology
+J0259,PRINCE2,Project & Methodology
+J0259,ITIL,Project & Methodology
+J0259,Stakeholder Management,Project & Methodology
+J0260,Agile/Scrum,Project & Methodology
+J0260,PRINCE2,Project & Methodology
+J0264,Agile/Scrum,Project & Methodology
+J0264,Project Management,Project & Methodology
+J0264,ITIL,Project & Methodology
+J0265,ITIL,Project & Methodology
+J0272,Project Management,Project & Methodology
+J0276,Project Management,Project & Methodology
+J0276,ITIL,Project & Methodology
+J0279,PRINCE2,Project & Methodology
+J0279,Stakeholder Management,Project & Methodology
+J0281,Agile/Scrum,Project & Methodology
+J0281,Project Management,Project & Methodology
+J0285,Project Management,Project & Methodology
+J0288,Agile/Scrum,Project & Methodology
+J0288,ITIL,Project & Methodology
+J0292,ITIL,Project & Methodology
+J0298,Stakeholder Management,Project & Methodology
+J0301,Agile/Scrum,Project & Methodology
+J0301,Project Management,Project & Methodology
+J0301,ITIL,Project & Methodology
+J0301,Stakeholder Management,Project & Methodology
+J0304,ITIL,Project & Methodology
+J0306,PRINCE2,Project & Methodology
+J0309,Agile/Scrum,Project & Methodology
+J0309,Project Management,Project & Methodology
+J0309,PRINCE2,Project & Methodology
+J0309,Stakeholder Management,Project & Methodology
+J0318,Agile/Scrum,Project & Methodology
+J0326,ITIL,Project & Methodology
+J0336,ITIL,Project & Methodology
+J0337,Agile/Scrum,Project & Methodology
+J0337,PRINCE2,Project & Methodology
+J0346,ITIL,Project & Methodology
+J0346,Stakeholder Management,Project & Methodology
+J0348,Project Management,Project & Methodology
+J0351,Project Management,Project & Methodology
+J0357,Stakeholder Management,Project & Methodology
+J0367,Agile/Scrum,Project & Methodology
+J0374,Project Management,Project & Methodology
+J0378,Stakeholder Management,Project & Methodology
+J0379,Stakeholder Management,Project & Methodology
+J0384,ITIL,Project & Methodology
+J0396,Agile/Scrum,Project & Methodology
+J0396,Stakeholder Management,Project & Methodology
+J0002,ISO 27001 Compliance,Cybersecurity
+J0002,SIEM / Security Monitoring,Cybersecurity
+J0002,Identity & Access Management,Cybersecurity
+J0011,ISO 27001 Compliance,Cybersecurity
+J0011,SIEM / Security Monitoring,Cybersecurity
+J0011,Security Clearance (Baseline/NV1),Cybersecurity
+J0019,ISO 27001 Compliance,Cybersecurity
+J0022,Zero Trust Architecture,Cybersecurity
+J0028,Penetration Testing,Cybersecurity
+J0034,Security Clearance (Baseline/NV1),Cybersecurity
+J0038,Zero Trust Architecture,Cybersecurity
+J0038,SIEM / Security Monitoring,Cybersecurity
+J0042,Incident Response,Cybersecurity
+J0046,Incident Response,Cybersecurity
+J0052,Security Clearance (Baseline/NV1),Cybersecurity
+J0060,Zero Trust Architecture,Cybersecurity
+J0060,Penetration Testing,Cybersecurity
+J0063,ISO 27001 Compliance,Cybersecurity
+J0063,SIEM / Security Monitoring,Cybersecurity
+J0063,Security Clearance (Baseline/NV1),Cybersecurity
+J0064,Incident Response,Cybersecurity
+J0064,Security Clearance (Baseline/NV1),Cybersecurity
+J0064,Penetration Testing,Cybersecurity
+J0072,Penetration Testing,Cybersecurity
+J0082,Zero Trust Architecture,Cybersecurity
+J0082,Security Clearance (Baseline/NV1),Cybersecurity
+J0082,Penetration Testing,Cybersecurity
+J0084,Incident Response,Cybersecurity
+J0086,ISO 27001 Compliance,Cybersecurity
+J0086,Incident Response,Cybersecurity
+J0086,Security Clearance (Baseline/NV1),Cybersecurity
+J0094,Identity & Access Management,Cybersecurity
+J0094,Penetration Testing,Cybersecurity
+J0094,ISO 27001 Compliance,Cybersecurity
+J0097,SIEM / Security Monitoring,Cybersecurity
+J0108,Incident Response,Cybersecurity
+J0111,Penetration Testing,Cybersecurity
+J0118,Identity & Access Management,Cybersecurity
+J0118,SIEM / Security Monitoring,Cybersecurity
+J0119,SIEM / Security Monitoring,Cybersecurity
+J0120,SIEM / Security Monitoring,Cybersecurity
+J0120,Identity & Access Management,Cybersecurity
+J0122,Penetration Testing,Cybersecurity
+J0129,ISO 27001 Compliance,Cybersecurity
+J0140,Penetration Testing,Cybersecurity
+J0144,ISO 27001 Compliance,Cybersecurity
+J0164,ISO 27001 Compliance,Cybersecurity
+J0185,ISO 27001 Compliance,Cybersecurity
+J0185,Incident Response,Cybersecurity
+J0191,ISO 27001 Compliance,Cybersecurity
+J0195,ISO 27001 Compliance,Cybersecurity
+J0195,Incident Response,Cybersecurity
+J0197,Penetration Testing,Cybersecurity
+J0201,SIEM / Security Monitoring,Cybersecurity
+J0201,Security Clearance (Baseline/NV1),Cybersecurity
+J0201,Penetration Testing,Cybersecurity
+J0205,Security Clearance (Baseline/NV1),Cybersecurity
+J0205,Penetration Testing,Cybersecurity
+J0210,SIEM / Security Monitoring,Cybersecurity
+J0219,Zero Trust Architecture,Cybersecurity
+J0229,ISO 27001 Compliance,Cybersecurity
+J0229,Penetration Testing,Cybersecurity
+J0230,Zero Trust Architecture,Cybersecurity
+J0230,Incident Response,Cybersecurity
+J0230,SIEM / Security Monitoring,Cybersecurity
+J0230,Security Clearance (Baseline/NV1),Cybersecurity
+J0233,Security Clearance (Baseline/NV1),Cybersecurity
+J0236,Zero Trust Architecture,Cybersecurity
+J0236,Incident Response,Cybersecurity
+J0242,Incident Response,Cybersecurity
+J0255,Zero Trust Architecture,Cybersecurity
+J0255,SIEM / Security Monitoring,Cybersecurity
+J0255,Security Clearance (Baseline/NV1),Cybersecurity
+J0255,Penetration Testing,Cybersecurity
+J0256,Identity & Access Management,Cybersecurity
+J0256,SIEM / Security Monitoring,Cybersecurity
+J0259,Zero Trust Architecture,Cybersecurity
+J0266,ISO 27001 Compliance,Cybersecurity
+J0267,Zero Trust Architecture,Cybersecurity
+J0267,ISO 27001 Compliance,Cybersecurity
+J0267,Incident Response,Cybersecurity
+J0271,Zero Trust Architecture,Cybersecurity
+J0271,SIEM / Security Monitoring,Cybersecurity
+J0273,Zero Trust Architecture,Cybersecurity
+J0273,Incident Response,Cybersecurity
+J0273,Identity & Access Management,Cybersecurity
+J0275,Penetration Testing,Cybersecurity
+J0277,ISO 27001 Compliance,Cybersecurity
+J0277,Incident Response,Cybersecurity
+J0278,Zero Trust Architecture,Cybersecurity
+J0278,ISO 27001 Compliance,Cybersecurity
+J0282,Identity & Access Management,Cybersecurity
+J0283,Incident Response,Cybersecurity
+J0283,Identity & Access Management,Cybersecurity
+J0283,Security Clearance (Baseline/NV1),Cybersecurity
+J0299,Security Clearance (Baseline/NV1),Cybersecurity
+J0300,ISO 27001 Compliance,Cybersecurity
+J0300,Security Clearance (Baseline/NV1),Cybersecurity
+J0306,ISO 27001 Compliance,Cybersecurity
+J0306,Incident Response,Cybersecurity
+J0307,Zero Trust Architecture,Cybersecurity
+J0307,Security Clearance (Baseline/NV1),Cybersecurity
+J0311,SIEM / Security Monitoring,Cybersecurity
+J0312,Security Clearance (Baseline/NV1),Cybersecurity
+J0313,Zero Trust Architecture,Cybersecurity
+J0313,ISO 27001 Compliance,Cybersecurity
+J0324,ISO 27001 Compliance,Cybersecurity
+J0324,Incident Response,Cybersecurity
+J0326,Incident Response,Cybersecurity
+J0328,ISO 27001 Compliance,Cybersecurity
+J0335,Penetration Testing,Cybersecurity
+J0344,Incident Response,Cybersecurity
+J0344,Security Clearance (Baseline/NV1),Cybersecurity
+J0345,Identity & Access Management,Cybersecurity
+J0345,Security Clearance (Baseline/NV1),Cybersecurity
+J0345,Penetration Testing,Cybersecurity
+J0352,SIEM / Security Monitoring,Cybersecurity
+J0355,SIEM / Security Monitoring,Cybersecurity
+J0356,Zero Trust Architecture,Cybersecurity
+J0356,Identity & Access Management,Cybersecurity
+J0357,Security Clearance (Baseline/NV1),Cybersecurity
+J0362,Zero Trust Architecture,Cybersecurity
+J0362,SIEM / Security Monitoring,Cybersecurity
+J0362,Incident Response,Cybersecurity
+J0370,Incident Response,Cybersecurity
+J0370,Security Clearance (Baseline/NV1),Cybersecurity
+J0370,Penetration Testing,Cybersecurity
+J0372,ISO 27001 Compliance,Cybersecurity
+J0375,Incident Response,Cybersecurity
+J0375,Penetration Testing,Cybersecurity
+J0384,Zero Trust Architecture,Cybersecurity
+J0384,Incident Response,Cybersecurity
+J0394,Zero Trust Architecture,Cybersecurity
+J0394,ISO 27001 Compliance,Cybersecurity
+J0396,Security Clearance (Baseline/NV1),Cybersecurity
+J0398,Identity & Access Management,Cybersecurity
+J0398,Security Clearance (Baseline/NV1),Cybersecurity
+J0400,Zero Trust Architecture,Cybersecurity
+J0400,Security Clearance (Baseline/NV1),Cybersecurity
+J0400,Penetration Testing,Cybersecurity
+J0005,Oracle Database,Databases
+J0009,Oracle Database,Databases
+J0009,SQL Server,Databases
+J0010,MySQL,Databases
+J0010,SQL Server,Databases
+J0016,Oracle Database,Databases
+J0041,Oracle Database,Databases
+J0048,SQL Server,Databases
+J0048,MongoDB,Databases
+J0051,SQL Server,Databases
+J0053,PostgreSQL,Databases
+J0054,MySQL,Databases
+J0054,SQL Server,Databases
+J0054,MongoDB,Databases
+J0056,PostgreSQL,Databases
+J0056,MongoDB,Databases
+J0068,MySQL,Databases
+J0069,MySQL,Databases
+J0069,PostgreSQL,Databases
+J0069,Oracle Database,Databases
+J0070,MySQL,Databases
+J0070,PostgreSQL,Databases
+J0085,MySQL,Databases
+J0085,SQL Server,Databases
+J0085,PostgreSQL,Databases
+J0092,SQL Server,Databases
+J0100,SQL Server,Databases
+J0102,MongoDB,Databases
+J0102,Oracle Database,Databases
+J0103,MySQL,Databases
+J0103,PostgreSQL,Databases
+J0106,MySQL,Databases
+J0126,MySQL,Databases
+J0128,MySQL,Databases
+J0128,MongoDB,Databases
+J0128,Oracle Database,Databases
+J0131,PostgreSQL,Databases
+J0133,MySQL,Databases
+J0149,SQL Server,Databases
+J0149,MongoDB,Databases
+J0149,PostgreSQL,Databases
+J0149,Oracle Database,Databases
+J0162,MySQL,Databases
+J0162,SQL Server,Databases
+J0162,Oracle Database,Databases
+J0170,MySQL,Databases
+J0170,SQL Server,Databases
+J0170,MongoDB,Databases
+J0172,SQL Server,Databases
+J0186,MySQL,Databases
+J0186,PostgreSQL,Databases
+J0190,MySQL,Databases
+J0190,SQL Server,Databases
+J0190,PostgreSQL,Databases
+J0190,Oracle Database,Databases
+J0194,MySQL,Databases
+J0194,MongoDB,Databases
+J0194,PostgreSQL,Databases
+J0194,Oracle Database,Databases
+J0198,MongoDB,Databases
+J0203,MongoDB,Databases
+J0209,MySQL,Databases
+J0209,PostgreSQL,Databases
+J0211,Oracle Database,Databases
+J0215,SQL Server,Databases
+J0215,MongoDB,Databases
+J0215,PostgreSQL,Databases
+J0215,Oracle Database,Databases
+J0217,MongoDB,Databases
+J0220,SQL Server,Databases
+J0220,MySQL,Databases
+J0238,Oracle Database,Databases
+J0241,Oracle Database,Databases
+J0245,PostgreSQL,Databases
+J0250,MongoDB,Databases
+J0254,MySQL,Databases
+J0257,MongoDB,Databases
+J0257,SQL Server,Databases
+J0269,MongoDB,Databases
+J0269,SQL Server,Databases
+J0274,MySQL,Databases
+J0274,SQL Server,Databases
+J0274,PostgreSQL,Databases
+J0274,Oracle Database,Databases
+J0286,PostgreSQL,Databases
+J0287,MySQL,Databases
+J0296,SQL Server,Databases
+J0317,MySQL,Databases
+J0322,PostgreSQL,Databases
+J0322,SQL Server,Databases
+J0329,SQL Server,Databases
+J0329,MongoDB,Databases
+J0330,PostgreSQL,Databases
+J0332,MongoDB,Databases
+J0333,PostgreSQL,Databases
+J0333,Oracle Database,Databases
+J0334,Oracle Database,Databases
+J0338,MongoDB,Databases
+J0339,SQL Server,Databases
+J0339,MongoDB,Databases
+J0339,PostgreSQL,Databases
+J0339,Oracle Database,Databases
+J0341,MongoDB,Databases
+J0363,MySQL,Databases
+J0365,MongoDB,Databases
+J0365,PostgreSQL,Databases
+J0365,Oracle Database,Databases
+J0373,Oracle Database,Databases
+J0376,SQL Server,Databases
+J0380,MongoDB,Databases
+J0380,PostgreSQL,Databases
+J0380,Oracle Database,Databases
+J0388,MongoDB,Databases
+J0388,MySQL,Databases
+J0388,PostgreSQL,Databases
+J0389,Oracle Database,Databases
+J0393,MongoDB,Databases
+J0397,SQL Server,Databases
+J0005,Node.js,Web & App Frameworks
+J0010,Node.js,Web & App Frameworks
+J0010,Angular,Web & App Frameworks
+J0021,Node.js,Web & App Frameworks
+J0021,.NET Core,Web & App Frameworks
+J0037,.NET Core,Web & App Frameworks
+J0047,Angular,Web & App Frameworks
+J0051,React,Web & App Frameworks
+J0057,Angular,Web & App Frameworks
+J0080,Angular,Web & App Frameworks
+J0080,React,Web & App Frameworks
+J0092,HTML5/CSS,Web & App Frameworks
+J0092,React,Web & App Frameworks
+J0093,.NET Core,Web & App Frameworks
+J0093,React,Web & App Frameworks
+J0095,React,Web & App Frameworks
+J0095,.NET Core,Web & App Frameworks
+J0096,Node.js,Web & App Frameworks
+J0096,React,Web & App Frameworks
+J0102,React,Web & App Frameworks
+J0114,HTML5/CSS,Web & App Frameworks
+J0114,Angular,Web & App Frameworks
+J0123,Node.js,Web & App Frameworks
+J0124,Node.js,Web & App Frameworks
+J0126,Angular,Web & App Frameworks
+J0126,Node.js,Web & App Frameworks
+J0136,React,Web & App Frameworks
+J0154,.NET Core,Web & App Frameworks
+J0157,HTML5/CSS,Web & App Frameworks
+J0157,Angular,Web & App Frameworks
+J0159,.NET Core,Web & App Frameworks
+J0165,Angular,Web & App Frameworks
+J0165,.NET Core,Web & App Frameworks
+J0169,HTML5/CSS,Web & App Frameworks
+J0169,Node.js,Web & App Frameworks
+J0169,.NET Core,Web & App Frameworks
+J0199,React,Web & App Frameworks
+J0199,.NET Core,Web & App Frameworks
+J0207,HTML5/CSS,Web & App Frameworks
+J0207,React,Web & App Frameworks
+J0209,HTML5/CSS,Web & App Frameworks
+J0209,React,Web & App Frameworks
+J0211,.NET Core,Web & App Frameworks
+J0211,React,Web & App Frameworks
+J0227,Node.js,Web & App Frameworks
+J0227,React,Web & App Frameworks
+J0231,.NET Core,Web & App Frameworks
+J0231,Node.js,Web & App Frameworks
+J0239,Node.js,Web & App Frameworks
+J0239,.NET Core,Web & App Frameworks
+J0240,HTML5/CSS,Web & App Frameworks
+J0241,React,Web & App Frameworks
+J0243,HTML5/CSS,Web & App Frameworks
+J0243,Angular,Web & App Frameworks
+J0243,React,Web & App Frameworks
+J0245,React,Web & App Frameworks
+J0245,.NET Core,Web & App Frameworks
+J0250,.NET Core,Web & App Frameworks
+J0250,HTML5/CSS,Web & App Frameworks
+J0250,React,Web & App Frameworks
+J0264,.NET Core,Web & App Frameworks
+J0272,HTML5/CSS,Web & App Frameworks
+J0276,Node.js,Web & App Frameworks
+J0286,Angular,Web & App Frameworks
+J0289,Angular,Web & App Frameworks
+J0290,React,Web & App Frameworks
+J0294,.NET Core,Web & App Frameworks
+J0298,React,Web & App Frameworks
+J0304,HTML5/CSS,Web & App Frameworks
+J0318,HTML5/CSS,Web & App Frameworks
+J0318,Angular,Web & App Frameworks
+J0318,.NET Core,Web & App Frameworks
+J0329,HTML5/CSS,Web & App Frameworks
+J0329,Node.js,Web & App Frameworks
+J0329,.NET Core,Web & App Frameworks
+J0336,HTML5/CSS,Web & App Frameworks
+J0336,React,Web & App Frameworks
+J0337,Angular,Web & App Frameworks
+J0340,HTML5/CSS,Web & App Frameworks
+J0340,.NET Core,Web & App Frameworks
+J0346,React,Web & App Frameworks
+J0348,React,Web & App Frameworks
+J0360,React,Web & App Frameworks
+J0371,.NET Core,Web & App Frameworks
+J0371,React,Web & App Frameworks
+J0374,.NET Core,Web & App Frameworks
+J0374,React,Web & App Frameworks
+J0381,HTML5/CSS,Web & App Frameworks
+J0381,React,Web & App Frameworks
+J0381,.NET Core,Web & App Frameworks
+J0389,.NET Core,Web & App Frameworks
+J0393,HTML5/CSS,Web & App Frameworks
+J0393,Angular,Web & App Frameworks
+J0004,Generative AI Tools,Emerging Tech
+J0004,Robotic Process Automation,Emerging Tech
+J0017,Robotic Process Automation,Emerging Tech
+J0039,Robotic Process Automation,Emerging Tech
+J0039,Large Language Model Integration,Emerging Tech
+J0043,Generative AI Tools,Emerging Tech
+J0043,Robotic Process Automation,Emerging Tech
+J0050,Generative AI Tools,Emerging Tech
+J0050,Large Language Model Integration,Emerging Tech
+J0079,Generative AI Tools,Emerging Tech
+J0081,Large Language Model Integration,Emerging Tech
+J0143,Robotic Process Automation,Emerging Tech
+J0163,Generative AI Tools,Emerging Tech
+J0181,Generative AI Tools,Emerging Tech
+J0189,Robotic Process Automation,Emerging Tech
+J0212,Large Language Model Integration,Emerging Tech
+J0253,Generative AI Tools,Emerging Tech
+J0284,Generative AI Tools,Emerging Tech
+J0284,Large Language Model Integration,Emerging Tech
+J0284,Robotic Process Automation,Emerging Tech
+J0310,Robotic Process Automation,Emerging Tech
+J0353,Large Language Model Integration,Emerging Tech
+J0399,Robotic Process Automation,Emerging Tech

@@ -1,0 +1,74 @@
+SkillName,SkillCategory
+AWS,Cloud Platforms
+Google Cloud Platform,Cloud Platforms
+Microsoft Azure,Cloud Platforms
+ISO 27001 Compliance,Cybersecurity
+Identity & Access Management,Cybersecurity
+Incident Response,Cybersecurity
+Penetration Testing,Cybersecurity
+SIEM / Security Monitoring,Cybersecurity
+Security Clearance (Baseline/NV1),Cybersecurity
+Zero Trust Architecture,Cybersecurity
+Advanced Excel,Data & Analytics
+Data Modelling,Data & Analytics
+Data Warehousing,Data & Analytics
+ETL / Data Pipelines,Data & Analytics
+Machine Learning,Data & Analytics
+Power BI,Data & Analytics
+Tableau,Data & Analytics
+MongoDB,Databases
+MySQL,Databases
+Oracle Database,Databases
+PostgreSQL,Databases
+SQL Server,Databases
+Ansible,DevOps & Infrastructure
+CI/CD Pipelines,DevOps & Infrastructure
+Docker,DevOps & Infrastructure
+Kubernetes,DevOps & Infrastructure
+Linux Administration,DevOps & Infrastructure
+Terraform,DevOps & Infrastructure
+Windows Server Administration,DevOps & Infrastructure
+Generative AI Tools,Emerging Tech
+Large Language Model Integration,Emerging Tech
+Robotic Process Automation,Emerging Tech
+Board & Executive Reporting,Leadership & Management
+Budget & Vendor Management,Leadership & Management
+Change Management,Leadership & Management
+People Management,Leadership & Management
+Risk Management,Leadership & Management
+Strategic Planning,Leadership & Management
+Team Leadership & Mentoring,Leadership & Management
+Cisco Networking,Networking
+Network Security,Networking
+TCP/IP,Networking
+VPN Administration,Networking
+Communication,Professional / Soft Skills
+Customer Service,Professional / Soft Skills
+Problem Solving,Professional / Soft Skills
+Stakeholder Engagement,Professional / Soft Skills
+Teamwork,Professional / Soft Skills
+Bash/Shell Scripting,Programming & Scripting
+C#,Programming & Scripting
+Java,Programming & Scripting
+JavaScript,Programming & Scripting
+PHP,Programming & Scripting
+Python,Programming & Scripting
+SQL,Programming & Scripting
+TypeScript,Programming & Scripting
+Agile/Scrum,Project & Methodology
+ITIL,Project & Methodology
+PRINCE2,Project & Methodology
+Project Management,Project & Methodology
+Stakeholder Management,Project & Methodology
+Curriculum Design & Development,Teaching & Academic
+Grant/Research Funding Applications,Teaching & Academic
+Industry Engagement & Partnerships,Teaching & Academic
+Learning Management Systems (Moodle/Canvas),Teaching & Academic
+Research & Academic Publication,Teaching & Academic
+Student Supervision & Mentoring,Teaching & Academic
+Teaching & Assessment (ICT),Teaching & Academic
+.NET Core,Web & App Frameworks
+Angular,Web & App Frameworks
+HTML5/CSS,Web & App Frameworks
+Node.js,Web & App Frameworks
+React,Web & App Frameworks

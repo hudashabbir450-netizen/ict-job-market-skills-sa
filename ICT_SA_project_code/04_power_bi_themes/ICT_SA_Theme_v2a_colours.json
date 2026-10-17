@@ -1,0 +1,10 @@
+{
+  "name": "ICT SA Colours v2",
+  "dataColors": ["#2A9D8F", "#16213E", "#E8A33D", "#E4634B", "#6C7A96", "#8AA399", "#5B8DB8", "#C9A227", "#9B5E8A", "#3F6B63"],
+  "background": "#FFFFFF",
+  "foreground": "#151B33",
+  "tableAccent": "#2A9D8F",
+  "good": "#2A9D8F",
+  "neutral": "#E8A33D",
+  "bad": "#E4634B"
+}

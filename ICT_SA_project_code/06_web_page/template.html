@@ -1,0 +1,460 @@
+<title>SA ICT Skills Analytics</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  /* Layout: a web twin of the six-page Power BI report. Title bar, one shared filter strip, page tabs, then the page's visuals in a card grid. */
+  :root{
+    --bg:#F3F5F8; --card:#FFFFFF; --line:#DDE3EA; --ink:#151B33; --navy:#16213E; --muted:#5B6472;
+    --teal:#2A9D8F; --teal-soft:#E6F4F1; --amber:#E8A33D; --coral:#E4634B; --sage:#8AA399; --steel:#5B8DB8;
+    --radius:8px; --font:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box;}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;}
+  .page{max-width:1500px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));}
+  h1,h2,h3,p{margin:0;}
+
+  .titlebar{background:var(--navy);color:#fff;border-radius:var(--radius);padding:16px 22px;display:flex;flex-wrap:wrap;gap:6px 24px;align-items:baseline;justify-content:space-between;}
+  .titlebar h1{font-size:20px;font-weight:600;letter-spacing:.005em;text-wrap:balance;}
+  .titlebar p{font-size:12.5px;color:#C5CCE0;}
+
+  .filterbar{margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr)) auto;gap:12px;align-items:end;position:relative;z-index:30;}
+  .ms{position:relative;min-width:0;}
+  .ms-label{display:block;font-size:12px;font-weight:600;color:var(--navy);margin-bottom:4px;}
+  .ms-btn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;font:inherit;font-size:13px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:6px;padding:8px 10px;cursor:pointer;text-align:left;}
+  .ms-btn:hover{border-color:#B9C3CF;}
+  .ms-btn:focus-visible,.reset:focus-visible,.tabs button:focus-visible,.opt input:focus-visible{outline:2px solid var(--teal);outline-offset:2px;}
+  .ms-val{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .ms-btn svg{flex:none;width:12px;height:12px;stroke:var(--muted);fill:none;stroke-width:2;}
+  .ms.has-sel .ms-btn{border-color:var(--teal);background:var(--teal-soft);}
+  .ms-panel{position:absolute;left:0;right:0;top:calc(100% + 4px);min-width:200px;max-height:300px;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:6px;box-shadow:0 8px 24px rgba(21,27,51,.14);padding:6px;z-index:40;}
+  .opt{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:5px;cursor:pointer;font-size:13px;}
+  .opt:hover{background:#F3F5F8;}
+  .opt input{accent-color:var(--teal);width:15px;height:15px;margin:0;flex:none;}
+  .opt.all{border-bottom:1px solid var(--line);border-radius:5px 5px 0 0;margin-bottom:4px;font-weight:600;}
+  .reset{font:inherit;font-size:13px;font-weight:600;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:6px;padding:8px 14px;cursor:pointer;}
+  .reset:hover{background:#F3F5F8;}
+  .countline{grid-column:1/-1;font-size:12px;color:var(--muted);}
+  .countline b{color:var(--navy);}
+
+  .tabs{display:flex;gap:4px;margin:14px 0 12px;overflow-x:auto;border-bottom:1px solid var(--line);}
+  .tabs button{font:inherit;font-size:14px;font-weight:600;color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;padding:10px 16px;cursor:pointer;white-space:nowrap;}
+  .tabs button:hover{color:var(--navy);}
+  .tabs button[aria-selected="true"]{color:var(--navy);border-bottom-color:var(--teal);}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;display:flex;flex-direction:column;min-width:0;}
+  .card h3{font-size:14px;font-weight:600;color:var(--navy);margin-bottom:8px;}
+  .chart{position:relative;flex:1;min-height:300px;}
+  .chart.tall{min-height:560px;}
+  .chart.mid{min-height:340px;}
+  .grid{display:grid;gap:12px;}
+
+  /* Overview */
+  .ov{grid-template-columns:210px minmax(0,1fr) minmax(0,1.5fr);align-items:stretch;}
+  .kpis{display:grid;gap:12px;grid-template-rows:repeat(4,1fr);}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;display:flex;flex-direction:column;justify-content:center;gap:2px;min-width:0;}
+  .kpi .l{font-size:12.5px;font-weight:600;color:var(--muted);}
+  .kpi .v{font-size:32px;font-weight:600;color:var(--navy);line-height:1.15;font-variant-numeric:tabular-nums;}
+  .ov-right{display:grid;gap:12px;grid-template-rows:auto 1fr;min-width:0;}
+  .ov-sub{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;}
+
+  /* Industry v Academia */
+  .iva{grid-template-columns:minmax(0,1fr) minmax(0,1fr);}
+  .secrows{display:grid;gap:10px;flex:1;}
+  .secrow{border:1px solid var(--line);border-radius:6px;padding:12px 14px;display:grid;grid-template-columns:minmax(0,1.1fr) repeat(3,minmax(0,1fr));gap:8px 14px;align-items:center;}
+  .secrow .nm{font-weight:600;color:var(--navy);display:flex;align-items:center;gap:8px;}
+  .swatch{width:12px;height:12px;border-radius:3px;flex:none;}
+  .m .l{font-size:12px;color:var(--muted);}
+  .m .v{font-size:22px;font-weight:600;color:var(--navy);font-variant-numeric:tabular-nums;line-height:1.2;}
+  .tablewrap{overflow-x:auto;}
+  table.mx{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums;}
+  .mx th{font-weight:600;color:var(--navy);text-align:right;padding:7px 10px;border-bottom:2px solid var(--line);white-space:nowrap;}
+  .mx th:first-child,.mx td:first-child{text-align:left;}
+  .mx td{padding:6px 10px;border-bottom:1px solid #EEF1F5;text-align:right;}
+  .mx td:first-child{color:var(--ink);white-space:nowrap;}
+  .mx tr.tot td{font-weight:600;border-top:2px solid var(--line);border-bottom:0;}
+
+  /* Career level */
+  .cl{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);}
+  .multiple{grid-column:1/-1;flex-direction:row;align-items:baseline;gap:14px;flex-wrap:wrap;}
+  .multiple .v{font-size:34px;font-weight:600;color:var(--navy);font-variant-numeric:tabular-nums;}
+  .multiple .l{font-size:14px;font-weight:600;color:var(--muted);}
+
+  /* Skills explorer */
+  .sk{grid-template-columns:minmax(220px,300px) minmax(0,1fr) minmax(0,1fr);}
+  .rolelist{overflow:auto;max-height:620px;margin:0 -6px;padding:0 6px;}
+  .rolelist .opt{font-size:13px;align-items:flex-start;}
+  .rolelist .opt span{min-width:0;}
+
+  /* Text pages */
+  .pagehead{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;margin-bottom:12px;}
+  .pagehead h2{font-size:18px;font-weight:600;color:var(--navy);text-wrap:balance;}
+  .recs{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .rec{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;font-size:15px;line-height:1.6;}
+  .rec b{color:var(--navy);font-weight:600;}
+  .meth{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .meth .card{padding:16px 18px;font-size:14px;line-height:1.6;}
+  .meth h3{font-size:15px;}
+  .meth p+p{margin-top:10px;}
+  .meth .rq{margin:0;padding:0;list-style:none;display:grid;gap:12px;}
+  .meth .rq b{color:var(--navy);margin-right:6px;}
+  .meth ol{margin:0;padding-left:20px;display:grid;gap:8px;}
+  .meth .bottom{grid-column:1/-1;display:grid;grid-template-columns:240px minmax(0,1.4fr) minmax(0,1.4fr);gap:12px;}
+  .meth .bottom .kpi{align-self:stretch;}
+  .meth b.k{color:var(--navy);}
+  footer{margin-top:18px;font-size:12px;color:var(--muted);max-width:90ch;}
+
+  @media (max-width:600px){.chart.mid{min-height:460px;}}
+  @media (max-width:1100px){
+    .ov{grid-template-columns:minmax(0,1fr);}
+    .kpis{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;}
+    .chart.tall{min-height:460px;}
+    .iva,.cl{grid-template-columns:minmax(0,1fr);}
+    .sk{grid-template-columns:minmax(0,1fr);}
+    .rolelist{max-height:260px;}
+    .recs,.meth{grid-template-columns:minmax(0,1fr) minmax(0,1fr);}
+    .meth .bottom{grid-template-columns:minmax(0,1fr);}
+    .filterbar{grid-template-columns:repeat(3,minmax(0,1fr));}
+  }
+  @media (max-width:700px){
+    .filterbar{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .ov-sub{grid-template-columns:minmax(0,1fr);}
+    .secrow{grid-template-columns:repeat(3,minmax(0,1fr));}
+    .secrow .nm{grid-column:1/-1;}
+    .recs,.meth{grid-template-columns:minmax(0,1fr);}
+    .kpi .v{font-size:26px;}
+  }
+</style>
+
+<div class="page">
+  <header class="titlebar">
+    <h1>ICT Job Market Skills Analytics: South Australia</h1>
+    <p>400 sample job ads, classified by career level, sector and employment basis</p>
+  </header>
+
+  <section class="filterbar" id="filterbar" aria-label="Filters">
+    <div class="countline" id="countline"></div>
+  </section>
+
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Report pages">
+    <button role="tab" id="t-overview" aria-selected="true" data-tab="overview">Overview</button>
+    <button role="tab" id="t-iva" aria-selected="false" data-tab="iva">Industry vs Academia</button>
+    <button role="tab" id="t-level" aria-selected="false" data-tab="level">Career Level</button>
+    <button role="tab" id="t-skills" aria-selected="false" data-tab="skills">Skills Explorer</button>
+    <button role="tab" id="t-recs" aria-selected="false" data-tab="recs">Recommendations</button>
+    <button role="tab" id="t-method" aria-selected="false" data-tab="method">Methodology</button>
+  </nav>
+
+  <!-- Overview -->
+  <main>
+  <section id="p-overview" role="tabpanel" aria-labelledby="t-overview">
+    <div class="grid ov">
+      <div class="kpis">
+        <div class="kpi"><span class="l">Total Job Ads</span><span class="v" id="k-total">–</span></div>
+        <div class="kpi"><span class="l">Avg Salary</span><span class="v" id="k-avg">–</span></div>
+        <div class="kpi"><span class="l">Median Salary</span><span class="v" id="k-med">–</span></div>
+        <div class="kpi"><span class="l">Distinct Skills Tracked</span><span class="v" id="k-skills">–</span></div>
+      </div>
+      <div class="card"><h3>Top Skills in Demand</h3><div class="chart tall"><canvas id="c-topskills" role="img" aria-label="Bar chart of the 15 most requested skills"></canvas></div></div>
+      <div class="ov-right">
+        <div class="card"><h3>Job Ads by Industry</h3><div class="chart mid"><canvas id="c-industry" role="img" aria-label="Donut chart of job ads by industry"></canvas></div></div>
+        <div class="ov-sub">
+          <div class="card"><h3>Job Ads by Salary Band</h3><div class="chart"><canvas id="c-bands" role="img" aria-label="Column chart of job ads by salary band"></canvas></div></div>
+          <div class="card"><h3>Postings Over Time</h3><div class="chart"><canvas id="c-trend" role="img" aria-label="Line chart of job postings per month"></canvas></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industry vs Academia -->
+  <section id="p-iva" role="tabpanel" aria-labelledby="t-iva" hidden>
+    <div class="grid iva">
+      <div class="card"><h3>Sector Summary</h3><div class="secrows" id="secrows"></div></div>
+      <div class="card"><h3>Employment Basis by Sector</h3><div class="chart mid"><canvas id="c-basis" role="img" aria-label="Clustered columns of job ads by sector and employment basis"></canvas></div></div>
+      <div class="card"><h3>Avg Salary by Career Level</h3><div class="chart tall"><canvas id="c-sal-sector" role="img" aria-label="Clustered columns of average salary by career level and sector"></canvas></div></div>
+      <div class="card"><h3>Skill Category Share</h3><div class="tablewrap" id="matrix"></div></div>
+    </div>
+  </section>
+
+  <!-- Career Level -->
+  <section id="p-level" role="tabpanel" aria-labelledby="t-level" hidden>
+    <div class="grid cl">
+      <div class="card multiple"><span class="l">Junior to Exec Salary Multiple</span><span class="v" id="k-mult">–</span></div>
+      <div class="card"><h3>Avg Salary by Career Level</h3><div class="chart tall"><canvas id="c-sal-level" role="img" aria-label="Column chart of average salary by career level"></canvas></div></div>
+      <div class="card"><h3>Job Ads by Career Level</h3><div class="chart tall"><canvas id="c-level-mix" role="img" aria-label="Donut chart of job ads by career level"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- Skills Explorer -->
+  <section id="p-skills" role="tabpanel" aria-labelledby="t-skills" hidden>
+    <div class="grid sk">
+      <div class="card"><h3>Role Category</h3><div class="rolelist" id="rolelist"></div></div>
+      <div class="card"><h3>Skill Categories</h3><div class="chart tall"><canvas id="c-skillcat" role="img" aria-label="Donut chart of skill mentions by category"></canvas></div></div>
+      <div class="card"><h3>Top Skills</h3><div class="chart tall"><canvas id="c-skills2" role="img" aria-label="Bar chart of the 15 most requested skills"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- Recommendations -->
+  <section id="p-recs" role="tabpanel" aria-labelledby="t-recs" hidden>
+    <div class="pagehead"><h2>Curriculum and Career-Readiness Recommendations</h2></div>
+    <div class="grid recs">
+      <div class="rec"><b>Academia pays more than Industry at Junior level, slightly more at Mid-Level, and about the same at Senior, but Industry pulls ahead at the top.</b> An academic track pays competitively early on, but Industry's C-suite roles (CTO, CIO) out-earn even a Professor or Head of School.</div>
+      <div class="rec"><b>Academia's top skills are almost entirely non-technical.</b> Student Supervision, Research &amp; Publication and Industry Engagement lead, with Teaching and Curriculum Design close behind. Technical skills show up as a specialisation layer, not the core requirement.</div>
+      <div class="rec"><b>Cloud (AWS/Azure/GCP) is demanded at every technical level in Industry, Junior through Senior.</b> It shouldn't sit only in a Cloud Computing elective; a cloud-fundamentals module belongs in core first and second-year units.</div>
+      <div class="rec"><b>The biggest single Industry salary jump is Senior to Manager/Executive.</b> That step needs leadership and stakeholder skills most technical ICT curricula don't teach directly.</div>
+      <div class="rec"><b>ICT Academia relies heavily on casual/sessional employment.</b> Australian university casualisation is around 45% of headcount (NTEU), with up to 80% of undergraduate teaching delivered by casual staff. An academic career often starts with insecure, part-time teaching work, which is a different risk profile to an Industry graduate role.</div>
+      <div class="rec"><b>Manager/Executive roles are a small share of ads but a large share of pay, and carry the most job security.</b> Worth showing students as two distinct, well-paid tracks (deep technical specialist vs people-leader), not one linear ladder.</div>
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section id="p-method" role="tabpanel" aria-labelledby="t-method" hidden>
+    <div class="pagehead"><h2>Methodology, Sources and Limitations</h2></div>
+    <div class="grid meth">
+      <div class="card">
+        <h3>Research Questions</h3>
+        <ul class="rq">
+          <li><b>RQ1:</b>Which ICT skills and tools show the highest demand across Adelaide/SA job advertisements, and how does this vary by career stage?</li>
+          <li><b>RQ2:</b>How do required skills, salary bands and employment security differ between ICT Industry roles and ICT Academia roles?</li>
+          <li><b>RQ3:</b>How does employment basis (permanent/contractor/casual-temp) vary by sector and career level, and what does this suggest for career-readiness advice?</li>
+          <li><b>RQ4:</b>What do these patterns imply for ICT curriculum design and career-readiness preparation at university level?</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Data Sources</h3>
+        <p><b class="k">Salary &amp; skills benchmarks:</b> SEEK Adelaide IT salary data; CareerOne SA salary reporting; Adzuna labour-market data; Jobs and Skills Australia (Internet Vacancy Index); Paxus 2026 Hiring Market report; Emanate Technology SA market commentary; SA Skills Commission (SASA) shortage reporting.</p>
+        <p><b class="k">Academic salary bands:</b> Australian university Academic Level A–E salary scales; TAFE SA enterprise pay data.</p>
+        <p><b class="k">Employment basis / casualisation:</b> NTEU analysis of Dept of Education staffing data; The Conversation / Times Higher Education reporting on university casualisation.</p>
+        <p>All sources accessed August 2026.</p>
+      </div>
+      <div class="card">
+        <h3>Limitations</h3>
+        <ol>
+          <li>Synthetic, not scraped: modelled against published aggregate statistics, not primary data collection.</li>
+          <li>Small cell sizes at some Sector × CareerLevel intersections (e.g. ICT Academia Junior/Beginner, n=10) reduce precision at finer grain.</li>
+          <li>12-month posting window (Sep 2025–Aug 2026) can't capture longer-term or seasonal trends.</li>
+          <li>Company/institution names are fictional archetypes, not real employers.</li>
+          <li>Headcount-based casualisation statistics aren't directly equivalent to job-ad-volume statistics (see Model Validation).</li>
+        </ol>
+      </div>
+      <div class="bottom">
+        <div class="kpi"><span class="l">Avg Salary (current filters)</span><span class="v" id="k-avg2">–</span></div>
+        <div class="card">
+          <h3>Model Validation</h3>
+          <p><b class="k">Overall average salary.</b> Real benchmark (Adelaide IT, SEEK/CareerOne Aug 2026): ~$111,000. The sample card alongside runs ~13% above this, plausibly because the sample's career-level mix is more senior than the true market-wide mix, which includes a large volume of low-paid entry-level/support postings.</p>
+          <p><b class="k">ICT Academia casual/temp share.</b> Sample: 41.6% of Academia postings. Real benchmark (NTEU, public universities): ~45% of headcount. Close alignment, though headcount and job-ad-volume are different units.</p>
+        </div>
+        <div class="card">
+          <h3>Ethics Statement</h3>
+          <p>Automated scraping of SEEK, LinkedIn, I Work for SA and Workforce Australia was deliberately avoided, as it breaches those platforms' Terms of Service and typical university research-ethics expectations for data collection. This project instead uses openly published, citable aggregate statistics to calibrate a transparent synthetic sample, a standard, defensible substitute for primary data collection in a student project context.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer>Sample dataset of 400 synthetic job ads modelled on Adelaide and South Australia labour-market patterns (Aug 2026). Company and institution names are fictional.</footer>
+</div>
+
+<script>
+const DATA = /*DATA*/;
+(function(){
+'use strict';
+const C={navy:'#16213E',teal:'#2A9D8F',amber:'#E8A33D',coral:'#E4634B',sage:'#8AA399',steel:'#5B8DB8',ink:'#151B33',muted:'#5B6472',grid:'#E7EBF0'};
+const LEVEL_COL={'Junior/Beginner':C.sage,'Mid-Level':C.teal,'Senior':C.amber,'Manager/Executive':C.navy};
+const SECTOR_COL={'ICT Industry':'#16645F','ICT Academia':'#24C4C7'}; /* as set on Avg Salary by Career Level in the final .pbix */
+const BASIS_COL={'Permanent':C.teal,'Contractor':C.amber,'Casual/Temp':C.coral};
+const DONUT_COL=['#2A9D8F','#16213E','#E8A33D','#E4634B','#6C7A96','#8AA399','#5B8DB8','#C9A227','#9B5E8A','#3F6B63','#4AC5BB','#5F6B6D','#FB8281','#F4D25A','#7F898A','#A4DDEE']; /* first 16 colours of the report theme */
+const TOPN=15;
+
+const jobs=DATA.jobs, pairs=DATA.pairs, catOf=DATA.skillCat;
+const bandOrder=DATA.bandOrder, levelOrder=DATA.levelOrder, sectorOrder=DATA.sectorOrder, basisOrder=DATA.basisOrder;
+const allMonths=[...new Set(jobs.map(j=>j.PostedMonth))].sort();
+const uniq=a=>[...new Set(a)].sort();
+const roles=uniq(jobs.map(j=>j.RoleCategory));
+
+const FILTERS=[
+  {key:'JobSector',label:'Sector',opts:sectorOrder},
+  {key:'CareerLevel',label:'Career Level',opts:levelOrder},
+  {key:'Industry',label:'Industry',opts:uniq(jobs.map(j=>j.Industry))},
+  {key:'Source',label:'Source',opts:uniq(jobs.map(j=>j.Source))},
+  {key:'EmploymentBasis',label:'Employment',opts:basisOrder}
+];
+const sel={}; FILTERS.forEach(f=>sel[f.key]=new Set());
+const roleSel=new Set();
+
+/* ---------- helpers ---------- */
+const money=v=>v==null||isNaN(v)?'–':'$'+Math.round(v).toLocaleString('en-AU');
+const kfmt=v=>'$'+Math.round(v/1000)+'K';
+const mean=a=>a.length?a.reduce((s,x)=>s+x,0)/a.length:null;
+const median=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;};
+const monthLabel=m=>{const [y,mo]=m.split('-');return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+mo-1]+' '+y.slice(2);};
+const $=id=>document.getElementById(id);
+const wide=()=>window.innerWidth>700;
+
+function filtered(){return jobs.filter(j=>FILTERS.every(f=>!sel[f.key].size||sel[f.key].has(j[f.key])));}
+function skillRows(js){const ids=new Set(js.map(j=>j.JobID));return pairs.filter(p=>ids.has(p[0]));}
+function countBy(rows,fn){const m=new Map();rows.forEach(r=>{const k=fn(r);m.set(k,(m.get(k)||0)+1);});return m;}
+function topN(map,n){return [...map.entries()].sort((a,b)=>b[1]-a[1]||(a[0]<b[0]?-1:1)).slice(0,n);}
+
+/* ---------- Chart.js setup ---------- */
+Chart.defaults.font.family='"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif';
+Chart.defaults.font.size=12; Chart.defaults.color=C.muted;
+Chart.defaults.animation=false; /* drawn at rest so value labels and thumbnails are complete on first paint */
+Chart.register({id:'valueLabels',afterDatasetsDraw(chart,args,opt){
+  if(!opt||!opt.fmt)return; const ctx=chart.ctx; ctx.save();
+  ctx.font='600 11px '+Chart.defaults.font.family; ctx.fillStyle=C.ink;
+  chart.data.datasets.forEach((ds,i)=>{const meta=chart.getDatasetMeta(i); if(meta.hidden)return;
+    meta.data.forEach((el,k)=>{const v=ds.data[k]; if(v==null||v===0)return; const t=opt.fmt(v);
+      if(opt.horizontal){ctx.textAlign='left';ctx.textBaseline='middle';ctx.fillText(t,el.x+6,el.y);}
+      else{ctx.textAlign='center';ctx.textBaseline='bottom';ctx.fillText(t,el.x,el.y-4);}});});
+  ctx.restore();}});
+const charts={};
+function draw(id,cfg){ if(charts[id])charts[id].destroy(); charts[id]=new Chart($(id),cfg); }
+const gridY={color:C.grid},noGrid={display:false};
+function colChart(labels,datasets,{fmt=v=>v,legend=false,yfmt}={}){
+  return {type:'bar',data:{labels,datasets},options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:legend,position:'bottom',labels:{boxWidth:12,boxHeight:12}},valueLabels:{fmt},
+      tooltip:{callbacks:{label:c=>(c.dataset.label?c.dataset.label+': ':'')+(yfmt||fmt)(c.parsed.y)}}},
+    scales:{x:{grid:noGrid,ticks:{maxRotation:50,autoSkip:false}},y:{beginAtZero:true,grace:'12%',grid:gridY,ticks:{callback:yfmt||fmt}}}}};
+}
+function barChart(entries,color){
+  return {type:'bar',data:{labels:entries.map(e=>e[0]),datasets:[{data:entries.map(e=>e[1]),backgroundColor:color,borderRadius:3,barPercentage:.78}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},valueLabels:{fmt:v=>v,horizontal:true}},
+      scales:{x:{beginAtZero:true,grace:'10%',grid:gridY},y:{grid:noGrid,ticks:{autoSkip:false,color:C.ink,callback:function(v){const l=this.getLabelForValue(v);return(!wide()&&l.length>20)?l.slice(0,19)+'…':l;}}}}}};
+}
+Chart.register({id:'sliceLabels',afterDatasetsDraw(chart){
+  const ds=chart.data.datasets[0]; if(chart.config.type!=='doughnut')return;
+  const total=ds.data.reduce((a,b)=>a+b,0); if(!total)return; const ctx=chart.ctx; ctx.save();
+  ctx.font='700 12px '+Chart.defaults.font.family; ctx.textAlign='center'; ctx.textBaseline='middle';
+  chart.getDatasetMeta(0).data.forEach((el,k)=>{const v=ds.data[k]; if(!v||v/total<0.035)return;
+    const a=(el.startAngle+el.endAngle)/2, r=(el.innerRadius+el.outerRadius)/2;
+    const hex=ds.backgroundColor[k], n=parseInt(hex.slice(1),16), lum=0.299*(n>>16)+0.587*((n>>8)&255)+0.114*(n&255);
+    ctx.fillStyle=lum>165?'#151B33':'#FFFFFF'; ctx.fillText(String(v),el.x+Math.cos(a)*r,el.y+Math.sin(a)*r);});
+  ctx.restore();}});
+function donut(entries,colorFn){
+  const total=entries.reduce((s,e)=>s+e[1],0);
+  const pct=v=>total?(100*v/total).toFixed(v/total<0.1?1:0)+'%':'0%';
+  return {type:'doughnut',data:{labels:entries.map(e=>e[0]),datasets:[{data:entries.map(e=>e[1]),backgroundColor:entries.map((e,i)=>colorFn(e[0],i)),borderColor:'#fff',borderWidth:2}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:'52%',
+      plugins:{legend:{position:wide()?'right':'bottom',labels:{boxWidth:12,boxHeight:12,color:C.ink,padding:10,
+          generateLabels(chart){const base=Chart.overrides.doughnut.plugins.legend.labels.generateLabels(chart);
+            base.forEach(l=>{const v=chart.data.datasets[0].data[l.index]; l.text=l.text+'  '+v+' ('+pct(v)+')'; l.fontColor=C.ink;}); return base;}}},
+        tooltip:{callbacks:{label:c=>' '+c.label+': '+c.parsed+' ('+pct(c.parsed)+')'}}}}};
+}
+function empty(id){ if(charts[id]){charts[id].destroy();delete charts[id];} }
+
+/* ---------- renderers ---------- */
+function renderOverview(js){
+  const rows=skillRows(js);
+  $('k-total').textContent=js.length.toLocaleString('en-AU');
+  $('k-avg').textContent=money(mean(js.map(j=>j.SalaryMid)));
+  $('k-med').textContent=money(median(js.map(j=>j.SalaryMid)));
+  $('k-skills').textContent=new Set(rows.map(r=>r[1])).size;
+  draw('c-topskills',barChart(topN(countBy(rows,r=>r[1]),TOPN),C.teal));
+  draw('c-industry',donut(topN(countBy(js,j=>j.Industry),20),(k,i)=>DONUT_COL[i%DONUT_COL.length]));
+  const bc=countBy(js,j=>j.SalaryBand);
+  draw('c-bands',colChart(bandOrder.map(b=>b.replace('Under $70K','<$70K').replace('K-$','-')),[{data:bandOrder.map(b=>bc.get(b)||0),backgroundColor:C.teal,borderRadius:3}]));
+  const mc=countBy(js,j=>j.PostedMonth);
+  draw('c-trend',{type:'line',data:{labels:allMonths.map(monthLabel),datasets:[{data:allMonths.map(m=>mc.get(m)||0),borderColor:C.teal,backgroundColor:'rgba(42,157,143,.12)',fill:true,tension:.3,pointRadius:3,pointBackgroundColor:C.teal}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:noGrid,ticks:{maxRotation:60,minRotation:45,autoSkip:true}},y:{beginAtZero:true,grace:'10%',grid:gridY}}}});
+}
+
+function renderIVA(js){
+  $('secrows').innerHTML=sectorOrder.map(s=>{
+    const sj=js.filter(j=>j.JobSector===s), sal=sj.map(j=>j.SalaryMid);
+    return `<div class="secrow"><div class="nm"><span class="swatch" style="background:${SECTOR_COL[s]}"></span>${s}</div>
+      <div class="m"><div class="l">Total Job Ads</div><div class="v">${sj.length.toLocaleString('en-AU')}</div></div>
+      <div class="m"><div class="l">Avg Salary</div><div class="v">${money(mean(sal))}</div></div>
+      <div class="m"><div class="l">Median Salary</div><div class="v">${money(median(sal))}</div></div></div>`;}).join('');
+  draw('c-basis',colChart(sectorOrder,basisOrder.map(b=>({label:b,backgroundColor:BASIS_COL[b],borderRadius:3,data:sectorOrder.map(s=>js.filter(j=>j.JobSector===s&&j.EmploymentBasis===b).length)})),{legend:true,fmt:v=>v}));
+  draw('c-sal-sector',colChart(levelOrder,sectorOrder.map(s=>({label:s,backgroundColor:SECTOR_COL[s],borderRadius:3,data:levelOrder.map(l=>{const a=js.filter(j=>j.JobSector===s&&j.CareerLevel===l).map(j=>j.SalaryMid);return a.length?mean(a):null;})})),{legend:true,fmt:kfmt}));
+  // matrix: share of each sector's skill mentions by category (REMOVEFILTERS on category)
+  const cols=[...sectorOrder,'Total']; const cats=uniq(Object.values(catOf));
+  const rows=skillRows(js), jobSector=new Map(js.map(j=>[j.JobID,j.JobSector]));
+  const cnt={}, tot={}; cols.forEach(c=>{tot[c]=0;cnt[c]={};});
+  rows.forEach(r=>{const s=jobSector.get(r[0]),c=catOf[r[1]]; [s,'Total'].forEach(k=>{tot[k]++;cnt[k][c]=(cnt[k][c]||0)+1;});});
+  let max=0; cats.forEach(c=>cols.forEach(k=>{const v=tot[k]?(cnt[k][c]||0)/tot[k]:0; if(v>max)max=v;}));
+  const cell=(c,k)=>{const v=tot[k]?(cnt[k][c]||0)/tot[k]:0; const a=max?v/max:0; const bg=`rgba(42,157,143,${(.06+.84*a).toFixed(3)})`; return `<td style="background:${bg};color:${a>.62?'#fff':C.ink}">${(v*100).toFixed(1)}%</td>`;};
+  $('matrix').innerHTML=`<table class="mx"><thead><tr><th scope="col">Skill category</th>${cols.map(c=>`<th scope="col">${c}</th>`).join('')}</tr></thead><tbody>`+
+    cats.map(c=>`<tr><td>${c}</td>${cols.map(k=>cell(c,k)).join('')}</tr>`).join('')+`</tbody></table>`;
+}
+
+function renderLevel(js){
+  const avgL=l=>mean(js.filter(j=>j.CareerLevel===l).map(j=>j.SalaryMid));
+  const a=avgL('Junior/Beginner'), b=avgL('Manager/Executive');
+  $('k-mult').textContent=a&&b?(b/a).toFixed(1)+'×':'–';
+  draw('c-sal-level',colChart(levelOrder,[{data:levelOrder.map(avgL),backgroundColor:levelOrder.map(l=>LEVEL_COL[l]),borderRadius:3}],{fmt:kfmt}));
+  draw('c-level-mix',donut(levelOrder.map(l=>[l,js.filter(j=>j.CareerLevel===l).length]).filter(e=>e[1]>0),k=>LEVEL_COL[k]));
+}
+
+function renderSkills(js){
+  const jr=js.filter(j=>!roleSel.size||roleSel.has(j.RoleCategory));
+  const rows=skillRows(jr);
+  draw('c-skillcat',donut(topN(countBy(rows,r=>catOf[r[1]]),20),(k,i)=>DONUT_COL[i%DONUT_COL.length]));
+  draw('c-skills2',barChart(topN(countBy(rows,r=>r[1]),TOPN),C.teal));
+}
+
+const renderers={overview:renderOverview,iva:renderIVA,level:renderLevel,skills:renderSkills};
+let current='overview';
+function render(){
+  const js=filtered();
+  $('countline').innerHTML='Showing <b>'+js.length.toLocaleString('en-AU')+'</b> of '+jobs.length+' job ads'+(js.length===0?'. No ads match these filters, so try clearing one.':'');
+  $('k-avg2').textContent=money(mean(js.map(j=>j.SalaryMid)));
+  if(renderers[current])renderers[current](js);
+}
+
+/* ---------- filter dropdowns ---------- */
+const bar=$('filterbar'), count=$('countline');
+function summary(set,opts){ if(!set.size)return 'All'; const v=opts.filter(o=>set.has(o)); return v.length===1?v[0]:v[0]+' +'+(v.length-1); }
+FILTERS.forEach(f=>{
+  const d=document.createElement('div'); d.className='ms'; d.id='ms-'+f.key;
+  d.innerHTML=`<span class="ms-label" id="lb-${f.key}">${f.label}</span>
+    <button type="button" class="ms-btn" aria-haspopup="true" aria-expanded="false" aria-labelledby="lb-${f.key}"><span class="ms-val">All</span><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+    <div class="ms-panel" hidden><label class="opt all"><input type="checkbox" data-all checked><span>Select all</span></label>${f.opts.map(o=>`<label class="opt"><input type="checkbox" value="${o.replace(/"/g,'&quot;')}"><span>${o}</span></label>`).join('')}</div>`;
+  bar.insertBefore(d,count);
+  const btn=d.querySelector('.ms-btn'), panel=d.querySelector('.ms-panel'), allBox=d.querySelector('[data-all]'), boxes=[...panel.querySelectorAll('input:not([data-all])')];
+  const sync=()=>{ const s=sel[f.key]; boxes.forEach(b=>b.checked=s.has(b.value)); allBox.checked=!s.size; d.querySelector('.ms-val').textContent=summary(s,f.opts); d.classList.toggle('has-sel',s.size>0); };
+  btn.addEventListener('click',()=>{const open=panel.hidden; closeAll(); panel.hidden=!open; btn.setAttribute('aria-expanded',String(open));});
+  panel.addEventListener('change',e=>{ const t=e.target; const s=sel[f.key];
+    if(t===allBox){s.clear();} else { t.checked?s.add(t.value):s.delete(t.value); if(s.size===f.opts.length)s.clear(); }
+    sync(); render(); });
+  d._sync=sync;
+});
+const reset=document.createElement('button'); reset.type='button'; reset.className='reset'; reset.textContent='Clear filters';
+bar.insertBefore(reset,count);
+function closeAll(){ bar.querySelectorAll('.ms-panel').forEach(p=>{p.hidden=true;}); bar.querySelectorAll('.ms-btn').forEach(b=>b.setAttribute('aria-expanded','false')); }
+document.addEventListener('click',e=>{ if(!e.target.closest('.ms'))closeAll(); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape')closeAll(); });
+reset.addEventListener('click',()=>{ FILTERS.forEach(f=>sel[f.key].clear()); roleSel.clear(); bar.querySelectorAll('.ms').forEach(d=>d._sync()); buildRoles(); render(); });
+
+/* ---------- role list (Skills Explorer page only) ---------- */
+function buildRoles(){
+  $('rolelist').innerHTML=`<label class="opt all"><input type="checkbox" data-all ${roleSel.size?'':'checked'}><span>Select all</span></label>`+
+    roles.map(r=>`<label class="opt"><input type="checkbox" value="${r.replace(/"/g,'&quot;')}" ${roleSel.has(r)?'checked':''}><span>${r}</span></label>`).join('');
+}
+$('rolelist').addEventListener('change',e=>{ const t=e.target;
+  if(t.hasAttribute('data-all')){roleSel.clear();} else { t.checked?roleSel.add(t.value):roleSel.delete(t.value); if(roleSel.size===roles.length)roleSel.clear(); }
+  const top=$('rolelist').scrollTop; buildRoles(); $('rolelist').scrollTop=top; render(); });
+
+/* ---------- tabs ---------- */
+const tabBtns=[...document.querySelectorAll('#tabs button')];
+function show(tab){
+  current=tab;
+  tabBtns.forEach(b=>b.setAttribute('aria-selected',String(b.dataset.tab===tab)));
+  document.querySelectorAll('main > section').forEach(s=>{s.hidden=s.id!=='p-'+tab;});
+  try{history.replaceState(null,'','#'+tab);}catch(_){}
+  render();
+}
+tabBtns.forEach(b=>b.addEventListener('click',()=>show(b.dataset.tab)));
+$('tabs').addEventListener('keydown',e=>{ const i=tabBtns.indexOf(document.activeElement); if(i<0)return;
+  if(e.key==='ArrowRight'||e.key==='ArrowLeft'){ const n=tabBtns[(i+(e.key==='ArrowRight'?1:-1)+tabBtns.length)%tabBtns.length]; n.focus(); show(n.dataset.tab); e.preventDefault(); }});
+let rt; window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(render,200);});
+
+FILTERS.forEach(f=>$('ms-'+f.key)._sync());
+buildRoles();
+const start=(location.hash||'').slice(1);
+show(['overview','iva','level','skills','recs','method'].includes(start)?start:'overview');
+})();
+</script>

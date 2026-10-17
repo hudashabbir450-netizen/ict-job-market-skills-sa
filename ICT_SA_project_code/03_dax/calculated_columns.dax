@@ -1,0 +1,5 @@
+// Calculated column on JobPostings
+MonthStart = DATE(YEAR(JobPostings[PostedDate]), MONTH(JobPostings[PostedDate]), 1)
+
+// Power BI also auto-created hidden date tables (LocalDateTable_*) for PostedDate and MonthStart:
+//   Calendar(Date(Year(MIN('JobPostings'[PostedDate])), 1, 1), Date(Year(MAX('JobPostings'[PostedDate])), 12, 31))

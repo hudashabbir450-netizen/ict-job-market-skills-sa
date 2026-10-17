@@ -1,0 +1,6 @@
+Star schema (both many-to-one, single direction, active):
+  JobSkills[JobID]     -> JobPostings[JobID]
+  JobSkills[SkillName] -> Skills[SkillName]
+
+Top N visual filters (Report page visuals):
+  Overview "Top Skills in Demand" and Skills Explorer "Top Skills": SkillName, Top 15 by [Skill Mention Count]

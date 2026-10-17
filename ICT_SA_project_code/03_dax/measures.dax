@@ -1,0 +1,30 @@
+// Measures in the final report (table: JobPostings). Read directly from the final .pbix data model.
+
+Total Job Ads = DISTINCTCOUNT(JobPostings[JobID])
+
+Avg Salary = AVERAGE(JobPostings[SalaryMid])
+
+Median Salary = MEDIAN(JobPostings[SalaryMid])
+
+Distinct Skills Tracked = DISTINCTCOUNT(JobSkills[SkillName])
+
+Skill Mention Count = COUNTROWS(JobSkills)
+
+Junior to Exec Salary Multiple =
+VAR JuniorAvg =
+    CALCULATE([Avg Salary], JobPostings[CareerLevel] = "Junior/Beginner", ALL(JobPostings[CareerLevel]))
+VAR ExecAvg =
+    CALCULATE([Avg Salary], JobPostings[CareerLevel] = "Manager/Executive", ALL(JobPostings[CareerLevel]))
+RETURN
+    DIVIDE(ExecAvg, JuniorAvg, BLANK())
+
+Skill Category Share % =
+DIVIDE(
+    [Skill Mention Count],
+    CALCULATE(
+        [Skill Mention Count],
+        REMOVEFILTERS(Skills[SkillCategory]),
+        REMOVEFILTERS(JobSkills[SkillCategory])
+    ),
+    0
+)
